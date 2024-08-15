@@ -24,6 +24,9 @@ a {
     transition: .3s;
 }
 
+
+
+
 a:hover,
 a:active,
 a:focus {
@@ -53,6 +56,11 @@ a:focus {
 
 .btn:focus,
 .form-control:focus {
+    box-shadow: none;
+}
+
+.btn:focus,
+.form-control1:focus {
     box-shadow: none;
 }
 
@@ -835,13 +843,41 @@ a:focus {
     background: transparent;
 }
 
+.donate .donate-form .form-control1 {
+    height: 150px;
+    width: 100%;
+     color: #ffffff;
+     padding: 0 15px;
+     border-radius: 0;
+     border-style: none;
+     border: 1px solid #ffffff;
+     background: transparent;
+     outline: none;
+ }
+
+ .donate .donate-form .form-control1:focus
+ {
+    transition: 1s;
+    border-color:rgb(0, 204, 255);
+ }
+
 .donate .donate-form .form-control::placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+
+.donate .donate-form .form-control1::placeholder {
     color: #ffffff;
     opacity: 1;
 }
 
 .donate .donate-form .form-control:-ms-input-placeholder,
 .donate .donate-form .form-control::-ms-input-placeholder {
+    color: #ffffff;
+}
+
+.donate .donate-form .form-control1:-ms-input-placeholder,
+.donate .donate-form .form-control1::-ms-input-placeholder {
     color: #ffffff;
 }
 
