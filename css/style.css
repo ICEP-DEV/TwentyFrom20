@@ -218,13 +218,32 @@ a:focus {
     
 }
 
+@keyframes shadowColorChange {
+    0% {
+        box-shadow: 0 2px 5px rgba(0, 47, 255, 0.5);
+    }
+    25% {
+        box-shadow: 0 2px 5px rgba(0, 78, 224, 0.4);
+    }
+    50% {
+        box-shadow: 0 2px 5px rgba(255, 17, 17, 0.4);
+    }
+    75% {
+        box-shadow: 0 2px 5px rgba(0, 47, 255, 0.4);
+    }
+    100% {
+        box-shadow: 0 2px 5px rgba(201, 0, 0, 0.5);
+    }
+}
+
 .navbar.nav-sticky {
     position: fixed;
     top: 0;
     width: 100%;
-    box-shadow: 0 2px 5px rgba(51, 50, 50, 0.952);
-    transition: .5s;
+    box-shadow: 0 2px 5px rgba(0, 47, 255, 0.4);
+    animation: shadowColorChange 6s linear infinite;
 }
+
 
 .navbar .navbar-brand {
     margin: 0;
@@ -264,12 +283,7 @@ a:focus {
     border-radius: 0;
     background: #f8f9fa;
 }
-.burger-menu
-{
-     background-color: black;
-     padding: 5PX;
-    
-}
+
 
 @media (min-width: 992px) {
     .navbar {
@@ -302,11 +316,7 @@ a:focus {
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
-<<<<<<< HEAD
-        background: #ffffff !important;
-=======
         background: white !important;
->>>>>>> 1d2def9abf24e5799f461253ee9c6dd963ea6de6
     }
     
     .navbar a.nav-link {
