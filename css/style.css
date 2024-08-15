@@ -545,6 +545,7 @@ a:focus {
     font-weight: 700;
     margin-bottom: 20px;
     padding-bottom: 5px;
+    
 }
 
 .page-header h2::after {
@@ -2150,3 +2151,50 @@ a:focus {
         text-align: center;
     }
 }
+
+/*Ndumo styling start*/
+.centered-title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.containerr {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.content-wrapperr {
+    display: flex;
+    flex-direction: row;
+    gap: 170px;
+    width: 100%; /* Ensures the content takes up the available space */
+}
+
+.image-containerr {
+    flex-shrink: 0;
+    max-width: 300px;
+    margin-left: 150px; 
+}
+
+.image-containerr img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.captionn {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.text-containerr {
+    flex-grow: 1;
+}
+
+
+/*Ndumo styling end*/
+
