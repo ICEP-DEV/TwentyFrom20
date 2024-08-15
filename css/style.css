@@ -151,7 +151,7 @@ a:focus {
 /**********************************/
 .top-bar {
     position: absolute;
-    height: 45px;
+    height: 55px;
     width: 100%;
     top: 0;
     left: 0;
@@ -159,71 +159,29 @@ a:focus {
     border-bottom: 1px solid rgba(255, 255, 255, .3);
 }
 
-.top-bar .top-bar-left {
+.top-bar .top-bar-right {
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
 
-.top-bar .top-bar-right {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
 .top-bar .text {
+    margin: 0;
+    color: #ffffff;
+    font-size: 45px;
+    line-height: 0px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-left: 100px;
+    
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    height: 45px;
+    height: 65px;
     padding: 0 10px;
-    text-align: center;
-    border-left: 1px solid rgba(255, 255, 255, .3);
-}
-
-.top-bar .text:last-child {
-    border-right: 1px solid rgba(255, 255, 255, .3);
-}
-
-.top-bar .text i {
-    font-size: 16px;
-    color: #FDBE33;
-    margin-right: 5px;
-}
-
-.top-bar .text p {
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 500;
-    margin: 0;
-}
-
-.top-bar .social {
-    display: flex;
-    height: 45px;
-    font-size: 0;
-    justify-content: flex-end;
-}
-
-.top-bar .social a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 45px;
-    height: 100%;
-    font-size: 16px;
-    color: #FDBE33;
-    border-right: 1px solid rgba(255, 255, 255, .3);
-}
-
-.top-bar .social a:first-child {
-    border-left: 1px solid rgba(255, 255, 255, .3);
-}
-
-.top-bar .social a:hover {
-    color: #ffffff;
-    background: #FDBE33;
+    text-align: center;  
 }
 
 @media (min-width: 992px) {
@@ -252,16 +210,12 @@ a:focus {
 
 .navbar .navbar-brand {
     margin: 0;
-    color: #ffffff;
-    font-size: 45px;
-    line-height: 0px;
-    font-weight: 700;
-    letter-spacing: 5px;
-    text-transform: uppercase;
+    width: 800px;
+    padding-right: 100px;
 }
 
 .navbar .navbar-brand img {
-    max-width: 100%;
+    max-width: 400px;
     max-height: 40px;
 }
 
@@ -270,7 +224,7 @@ a:focus {
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     padding: 10px 15px 8px 15px;
-    color: #ffffff;
+    color: black;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -292,14 +246,14 @@ a:focus {
         width: 100%;
         top: 45px;
         padding: 20px 60px;
-        background: transparent !important;
+        background: white !important;
         border-bottom: 1px solid rgba(255, 255, 255, .3);
         z-index: 9;
     }
     
     .navbar.nav-sticky {
         padding: 10px 60px;
-        background: #0011c7 !important;
+        background: white !important;
         border-bottom: none;
     }
     
