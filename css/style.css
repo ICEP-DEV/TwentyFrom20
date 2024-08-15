@@ -215,13 +215,14 @@ a:focus {
     position: relative;
     transition: .5s;
     z-index: 999;
+    
 }
 
 .navbar.nav-sticky {
     position: fixed;
     top: 0;
     width: 100%;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+    box-shadow: 0 2px 5px rgba(51, 50, 50, 0.952);
     transition: .5s;
 }
 
@@ -248,6 +249,13 @@ a:focus {
 .navbar-dark .navbar-nav .nav-link.active {
     color: #FDBE33;
     transition: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #FDBE33;
 }
 
 .navbar .dropdown-menu {
@@ -281,7 +289,7 @@ a:focus {
     }
     
     .page .navbar {
-        background: #20212B !important;
+        background: black!important;
     }
     
     .navbar a.nav-link {
@@ -294,7 +302,11 @@ a:focus {
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
+<<<<<<< HEAD
         background: #ffffff !important;
+=======
+        background: white !important;
+>>>>>>> 1d2def9abf24e5799f461253ee9c6dd963ea6de6
     }
     
     .navbar a.nav-link {
