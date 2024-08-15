@@ -2198,3 +2198,14 @@ a:focus {
 
 /*Ndumo styling end*/
 
+.image-hackathon {
+    text-align: center; /* Centers the image horizontally within the container */
+    margin: 0 auto; /* Ensures the container is centered if it has a specific width */
+}
+
+.image-hackathon img {
+    max-width: 100%; /* Ensures the image scales down to fit within its container */
+    height: auto; /* Maintains the aspect ratio of the image */
+    width: 35%; /* Adjust the width to make the image smaller (you can change the percentage as needed) */
+}
+
