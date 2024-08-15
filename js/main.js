@@ -35,6 +35,7 @@
     });
     
     
+    
     // Dropdown on mouse hover
     $(document).ready(function () {
         function toggleNavbarMethod() {
@@ -182,4 +183,15 @@ $(document).ready(function () {
     });
     
 })(jQuery);
+
+document.querySelectorAll('.navbar-nav a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
 

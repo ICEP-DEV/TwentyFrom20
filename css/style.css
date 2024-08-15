@@ -9,6 +9,15 @@ body {
     padding: 0;
     margin: 0;
 }
+.ml-auto
+{
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 
 h1,
 h2, 
