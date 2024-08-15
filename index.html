@@ -554,22 +554,33 @@
                     </div>
                     <div class="col-lg-5">
                         <div class="donate-form">
-                            <form>
+                            <form action="https://formsubmit.co/tmatiza19@gmail.com" method="POST">
                                 <div class="control-group">
-                                    <input type="text" class="form-control" placeholder="Name" required="required" />
+                                    <input type="text" class="form-control" name="Subject" placeholder="Subject" required="required" />
                                 </div>
                                 <div class="control-group">
-                                    <input type="email" class="form-control" placeholder="Email" required="required" />
+                                    <input type="text" class="form-control" name="Name" placeholder="Name" required="required" />
                                 </div>
                                 <div class="control-group">
-                                    <input type="tel" class="form-control" placeholder="Tel" required="required" />
+                                    <input type="email" class="form-control" name="Email" placeholder="Email" required="required" />
                                 </div>
                                 <div class="control-group">
-                                    <textarea class="form-control" placeholder="Message" required="required"></textarea>
+                                    <input type="tel" class="form-control" name="Contact" placeholder="Tel" required="required" />
                                 </div>
-
+                                <div class="control-group">
+                                    <textarea class="form-control1" name="Message" placeholder="Message" required="required"></textarea>
+                                </div>
                                 <div>
-                                    <button class="btn btn-custom" type="submit">Help Out</button>
+                                    <input type="hidden" name="_autoresponse" value="Thank you for your response our support team will get back to you shortly">
+                                </div>
+                                <div>
+                                    <input type="hidden" name="_template" value="box">
+                                </div>
+                                <div>
+                                    <input type="hidden" name="_next" value="https://icep-dev.github.io/TwentyFrom20/thank-you-page.html">
+                                </div>
+                                <div>
+                                    <button class="btn btn-custom" type="submit">Submit</button>
                                 </div>
                             </form>
                         </div>
