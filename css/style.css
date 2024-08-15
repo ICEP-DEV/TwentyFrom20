@@ -256,6 +256,12 @@ a:focus {
     border-radius: 0;
     background: #f8f9fa;
 }
+.burger-menu
+{
+     background-color: black;
+     padding: 5PX;
+    
+}
 
 @media (min-width: 992px) {
     .navbar {
@@ -288,7 +294,7 @@ a:focus {
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
-        background: #20212B !important;
+        background: #ffffff !important;
     }
     
     .navbar a.nav-link {
