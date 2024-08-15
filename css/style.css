@@ -2212,7 +2212,6 @@ a:focus {
     flex-grow: 1;
 }
 
-
 /*Ndumo styling end*/
 
 .image-hackathon {
@@ -2225,4 +2224,7 @@ a:focus {
     height: auto; /* Maintains the aspect ratio of the image */
     width: 35%; /* Adjust the width to make the image smaller (you can change the percentage as needed) */
 }
+
+
+
 
