@@ -270,6 +270,12 @@ a:focus {
     transition: none;
 }
 
+.dropdown-item:hover
+{
+    color: #FDBE33;
+    transition: 1s;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: black;
 }
