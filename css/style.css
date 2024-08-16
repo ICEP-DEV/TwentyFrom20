@@ -218,6 +218,34 @@ a:focus {
     
 }
 
+.donate-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 25px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 0 15px rgba(0, 0, 255, 0.5); /* Blue glow effect */
+}
+
+.donate-button span {
+    display: inline-block;
+    position: relative;
+}
+
+.donate-button:hover {
+    background-color: darkblue; /* Darken the blue on hover */
+    transform: scale(1.1); /* Slightly enlarge the button */
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.7); /* Enhance the glow on hover */
+}
+
+.donate-button:active {
+    transform: scale(0.95); /* Slightly shrink the button on click */
+}
+
+
 @keyframes shadowColorChange {
     0% {
         box-shadow: 0 2px 5px rgba(0, 47, 255, 0.5);
@@ -327,6 +355,7 @@ a:focus {
         box-shadow: none;
     }
 }
+
 
 
 /*******************************/
@@ -2554,6 +2583,42 @@ header h1{
     float: right;
     text-align: left;
   }
+}
+
+.button-container {
+    text-align: center;
+    width: 100%;
+}
+
+.donate-button {
+    padding: 15px 30px;
+    background-color: blue;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 25px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    animation: glow 0.5s infinite alternate;
+    box-shadow: 0 0 20px rgba(30, 30, 240, 0.5);
+    display: inline-block;
+}
+  
+@keyframes glow {
+    from {
+        box-shadow: 0 0 20px rgba(30, 30, 240, 0.5);
+    }
+    to {
+        box-shadow: 0 0 40px rgba(30, 30, 240, 1);
+    }
+}
+
+.donate-button:hover {
+    transform: scale(1.1);
+}
+
+.donate-button:active {
+    transform: scale(0.95);
 }
 /*/*Donation Journey*/
 
