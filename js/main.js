@@ -20,7 +20,7 @@
         }
     });
     $('.back-to-top').click(function () {
-        $('html, body').animate({scrollTop: 0}, 300, 'easeInOutExpo');
+        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
         return false;
     });
     
@@ -72,7 +72,15 @@
     
     
 // Modal Video
-
+$(document).ready(function () {
+    var $videoSrc;
+    
+    // When a play button is clicked, capture the data-src value (video path)
+    $('.btn-play').click(function () {
+        $videoSrc = $(this).data("src");
+    });
+    
+    console.log($videoSrc);
 
     // When the modal is shown, set the video src attribute
     $('#videoModal').on('shown.bs.modal', function (e) {
@@ -174,7 +182,7 @@
         }
     });
     
-(jQuery);
+})(jQuery);
 
 document.querySelectorAll('.navbar-nav a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
