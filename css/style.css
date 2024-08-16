@@ -218,6 +218,34 @@ a:focus {
     
 }
 
+.donate-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 25px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 0 15px rgba(0, 0, 255, 0.5); /* Blue glow effect */
+}
+
+.donate-button span {
+    display: inline-block;
+    position: relative;
+}
+
+.donate-button:hover {
+    background-color: darkblue; /* Darken the blue on hover */
+    transform: scale(1.1); /* Slightly enlarge the button */
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.7); /* Enhance the glow on hover */
+}
+
+.donate-button:active {
+    transform: scale(0.95); /* Slightly shrink the button on click */
+}
+
+
 @keyframes shadowColorChange {
     0% {
         box-shadow: 0 2px 5px rgba(0, 47, 255, 0.5);
@@ -327,6 +355,7 @@ a:focus {
         box-shadow: none;
     }
 }
+
 
 
 /*******************************/
@@ -2268,7 +2297,7 @@ header h1{
   margin-left: -1px;
   background: rgb(213,213,213);
   background: -moz-linear-gradient(top, rgba(213,213,213,0) 0%, rgb(213,213,213) 8%, rgb(213,213,213) 92%, rgba(213,213,213,0) 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,1)));
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #003883(30,87,153,1)), color-stop(100%,rgba(125,185,232,1)));
   background: -webkit-linear-gradient(top, rgba(213,213,213,0) 0%, rgb(213,213,213) 8%, rgb(213,213,213) 92%, rgba(213,213,213,0) 100%);
   background: -o-linear-gradient(top, rgba(213,213,213,0) 0%, rgb(213,213,213) 8%, rgb(213,213,213) 92%, rgba(213,213,213,0) 100%);
   background: -ms-linear-gradient(top, rgba(213,213,213,0) 0%, rgb(213,213,213) 8%, rgb(213,213,213) 92%, rgba(213,213,213,0) 100%);
@@ -2284,7 +2313,7 @@ header h1{
   width: 16px;
   height: 10px;
   position: absolute;
-  background: #00c4f3;
+  background: #e6b012;
  
   left: 0;
   right: 0;
@@ -2295,7 +2324,7 @@ header h1{
 }
 
 .timeline .hexa:before {
-  border-bottom: 4px solid #00c4f3;
+  border-bottom: 4px solid #e6b012;
   border-left-width: 8px;
   border-right-width: 8px;
   top: -4px;
@@ -2304,7 +2333,7 @@ header h1{
 .timeline .hexa:after {
   border-left-width: 8px;
   border-right-width: 8px;
-  border-top: 4px solid #00c4f3;
+  border-top: 4px solid #e6b012;
   bottom: -4px;
 }
 
@@ -2377,7 +2406,7 @@ header h1{
 }
 
 .time {
-  background: #00c4f3;
+  background: #ce1127;
   display: inline-block;
   padding: 8px;
 }
@@ -2511,6 +2540,42 @@ header h1{
     float: right;
     text-align: left;
   }
+}
+
+.button-container {
+    text-align: center;
+    width: 100%;
+}
+
+.donate-button {
+    padding: 15px 30px;
+    background-color: blue;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 25px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    animation: glow 0.5s infinite alternate;
+    box-shadow: 0 0 20px rgba(30, 30, 240, 0.5);
+    display: inline-block;
+}
+  
+@keyframes glow {
+    from {
+        box-shadow: 0 0 20px rgba(30, 30, 240, 0.5);
+    }
+    to {
+        box-shadow: 0 0 40px rgba(30, 30, 240, 1);
+    }
+}
+
+.donate-button:hover {
+    transform: scale(1.1);
+}
+
+.donate-button:active {
+    transform: scale(0.95);
 }
 /*/*Donation Journey*/
 
