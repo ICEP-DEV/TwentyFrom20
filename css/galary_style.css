@@ -345,7 +345,7 @@ h2 {
 }
 
 .split-image-left {
-	background-image: url("../img/photo-55.JPG");
+	background-image: url("../img/photo-55.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -353,7 +353,7 @@ h2 {
 }
 
 .split-image-right {
-	background-image: url("../img/photo-56.JPG");
+	background-image: url("../img/photo-56.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -546,7 +546,7 @@ h2 {
 .spot-2 {
 	height: 100vh;
 	min-height: 500px;
-	background-image: url("../img/photo-40.JPG");
+	background-image: url("../img/photo-40.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
