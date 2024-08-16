@@ -593,6 +593,8 @@ h2 {
     font-size: 2em;
     color: #fff;
     overflow: hidden; /* Ensures video fills the section */
+	z-index: 100;
+
 }
 
 .background-video {
