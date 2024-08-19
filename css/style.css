@@ -351,6 +351,10 @@ a:focus {
         font-size: 16px;
         letter-spacing: 1px;
     }
+
+    .navbar-logo {
+        content: url('img/Picture1.png'); /* Original Image */
+    }
 }
 
 @media (max-width: 991.98px) {   
@@ -366,8 +370,11 @@ a:focus {
     .navbar .dropdown-menu {
         box-shadow: none;
     }
-}
 
+    .navbar-logo {
+        content: url('img/tut.PNG'); /* Smaller Image */
+    }
+}
 
 
 /*******************************/
