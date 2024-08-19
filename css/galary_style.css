@@ -148,6 +148,7 @@ h2 {
 	.button_container.active {
 		right: 15px;
 	}
+	
 }
 
 .button_container.active .top {
@@ -595,6 +596,19 @@ h2 {
     overflow: hidden; /* Ensures video fills the section */
 	z-index: 100;
 
+}
+.spot-11 {
+	height: 100vh;
+	min-height: 500px;
+	background-image: url("../img/Group4.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	top: 0;
+	position: relative;
+	width: 100%;
+	font-size: 2em;
+	color: #fff;
 }
 
 .background-video {
