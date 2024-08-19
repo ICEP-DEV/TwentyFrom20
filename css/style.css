@@ -216,8 +216,11 @@ a:focus {
     position: relative;
     transition: .5s;
     z-index: 999;
-    
+    width: 100%;
+    overflow-x: inherit;
 }
+
+
 
 .donate-button {
     display: inline-block;
@@ -229,6 +232,8 @@ a:focus {
     text-align: center;
     transition: background-color 0.3s ease, transform 0.3s ease;
     box-shadow: 0 0 15px rgba(0, 0, 255, 0.5); /* Blue glow effect */
+    
+   
 }
 
 .donate-button span {
