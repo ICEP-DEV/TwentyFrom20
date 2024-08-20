@@ -195,10 +195,10 @@ document.querySelectorAll('.navbar-nav a[href^="#"]').forEach(anchor => {
 });
 
 
- //team
+//  team
 // $('.causes-progress').waypoint(function () {
-   // $('.progress .progress-bar').each(function () {
-       // $(this).css("width", $(this).attr("aria-valuenow") + '%');
-  //  });
-//}, {offset: '80%'});
+//    $('.progress .progress-bar').each(function () {
+//        $(this).css("width", $(this).attr("aria-valuenow") + '%');
+//    });
+// }, {offset: '80%'});
 
