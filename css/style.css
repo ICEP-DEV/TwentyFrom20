@@ -216,12 +216,14 @@ a:focus {
     position: relative;
     transition: .5s;
     z-index: 999;
+<<<<<<< HEAD
+    
+=======
     width: 100%;
     overflow-x: inherit;
     height: 100px;
+>>>>>>> 73666422555f7544318fce1331ff85992ed5c375
 }
-
-
 
 .donate-button {
     display: inline-block;
@@ -233,7 +235,10 @@ a:focus {
     text-align: center;
     transition: background-color 0.3s ease, transform 0.3s ease;
     box-shadow: 0 0 15px rgba(0, 0, 255, 0.5); /* Blue glow effect */
+<<<<<<< HEAD
+=======
 
+>>>>>>> 73666422555f7544318fce1331ff85992ed5c375
 }
 
 .donate-button span {
@@ -350,7 +355,10 @@ a:focus {
         padding: 8px 15px;
         font-size: 16px;
         letter-spacing: 1px;
+<<<<<<< HEAD
+=======
         margin-right: 50px;
+>>>>>>> 73666422555f7544318fce1331ff85992ed5c375
     }
 }
 
@@ -367,9 +375,13 @@ a:focus {
     .navbar .dropdown-menu {
         box-shadow: none;
     }
+<<<<<<< HEAD
+=======
 
     
+>>>>>>> 73666422555f7544318fce1331ff85992ed5c375
 }
+
 
 
 /*******************************/
@@ -1121,7 +1133,7 @@ a:focus {
 
 .facts .facts-text h3.facts-dollar::after {
     content: "R";
-    right: -18px;
+    left: -18px;
 }
 
 .facts .facts-text p {
@@ -2568,7 +2580,6 @@ header h4{
 .button-container {
     text-align: center;
     width: 100%;
-    
 }
 
 .donate-button {
@@ -2608,6 +2619,6 @@ header h4{
 
 /*hover ends*/
 
-
+/* */
 
 
