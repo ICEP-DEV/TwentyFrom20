@@ -218,9 +218,9 @@ a:focus {
     z-index: 999;
     width: 100%;
     overflow-x: inherit;
+    height: 100px;
+
 }
-
-
 
 .donate-button {
     display: inline-block;
@@ -232,8 +232,7 @@ a:focus {
     text-align: center;
     transition: background-color 0.3s ease, transform 0.3s ease;
     box-shadow: 0 0 15px rgba(0, 0, 255, 0.5); /* Blue glow effect */
-    
-   
+
 }
 
 .donate-button span {
@@ -281,13 +280,13 @@ a:focus {
 
 .navbar .navbar-brand {
     margin: 0;
-    width: 800px;
+    width: 700px;
     padding-right: 100px;
 }
 
 .navbar .navbar-brand img {
-    max-width: 400px;
-    max-height: 40px;
+    max-width: 550px;
+    max-height: 250px;
 }
 
 .navbar-dark .navbar-nav .nav-link,
@@ -350,11 +349,9 @@ a:focus {
         padding: 8px 15px;
         font-size: 16px;
         letter-spacing: 1px;
-        margin-right: 50px;
-    }
 
-    .navbar-logo {
-        content: url('img/Picture1.png'); /* Original Image */
+        margin-right: 50px;
+
     }
 }
 
@@ -372,10 +369,8 @@ a:focus {
         box-shadow: none;
     }
 
-    .navbar-logo {
-        content: url('img/tut.PNG'); /* Smaller Image */
-    }
 }
+
 
 
 /*******************************/
@@ -384,7 +379,7 @@ a:focus {
 .carousel {
     position: relative;
     width: 100%;
-    min-height: 300px;
+    min-height: 500px;
     background: #ffffff;
     margin-bottom: 45px;
 }
@@ -437,6 +432,7 @@ a:focus {
     justify-content: center;
     flex-direction: column;
     z-index: 2;
+    
 }
 
 .carousel .carousel-text h1 {
@@ -578,7 +574,7 @@ a:focus {
     position: relative;
     margin-bottom: 45px;
     padding: 210px 0 90px 0;
-    text-align: center;
+    text-align: end;
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/page-header.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -1126,7 +1122,7 @@ a:focus {
 
 .facts .facts-text h3.facts-dollar::after {
     content: "R";
-    right: -18px;
+    left: -18px;
 }
 
 .facts .facts-text p {
@@ -2253,13 +2249,25 @@ body{
 header h1{
   text-align: center;
   font-weight: bold;
-  margin-top: 0;
-}
+  margin-top: 15px;
   
- header p{
-   text-align: center;
-   margin-bottom: 0;
- }
+}
+header h4{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-right: 555px;
+    color: #FDBE33 ;
+  }
+  
+  header img {
+    
+    display: block;
+    margin: 0 auto; /* This will center the image */
+    margin-left: 620px;
+    margin-top: 0;
+    
+}
 
 .hexa{
   border: 0px;
@@ -2272,6 +2280,7 @@ header h1{
   color: #3c3c3c;
   position: relative;
   margin-top: 15px;
+  
 }
 
 .hexa:before{
@@ -2301,6 +2310,7 @@ header h1{
 .timeline {
   position: relative;
   padding: 0;
+  
   width: 100%;
   margin-top: 20px;
   list-style-type: none;
@@ -2357,7 +2367,12 @@ header h1{
   bottom: -4px;
 }
 
-.direction-l,
+.direction-l{
+    float: none;
+    width: 100%;
+    text-align: center;
+    
+  }
 .direction-r {
   float: none;
   width: 100%;
@@ -2430,7 +2445,25 @@ header h1{
   display: inline-block;
   padding: 8px;
 }
+/*Something new*/
+.desc1 {
+    position: relative;
+    margin: 1em 0 0 0;
+    padding: 1em;
+    background: rgb(254,254,254);
+    -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.20);
+    -moz-box-shadow: 0 0 1px rgba(0,0,0,0.20);
+    box-shadow: 0 0 1px rgba(0,0,0,0.20);
+    left: -170px; /* Moves the box 10 pixels to the left */
+  }
 
+.direction-l .desc{
+    position: relative;
+    margin: 1em 1em 0 1em;
+    padding: 1em;
+    
+  }
+/*something new*/
 .desc {
   position: relative;
   margin: 1em 0 0 0;
@@ -2442,7 +2475,7 @@ header h1{
   
 }
 
-.direction-l .desc,
+
 .direction-r .desc {
   position: relative;
   margin: 1em 1em 0 1em;
@@ -2542,16 +2575,18 @@ header h1{
 
 @media(min-width: 992px){
   .timeline {
-    width: 800px;
+    width: 1350px;
     margin: 0 auto;
     margin-top: 20px;
+    margin-right: 555px;
   }
 
   .direction-l {
     position: relative;
     width: 380px;
-    float: left;
-    text-align: right;
+    float: right;
+    text-align: left;
+    margin-right: 540px;
   }
 
   .direction-r {
@@ -2559,13 +2594,14 @@ header h1{
     width: 380px;
     float: right;
     text-align: left;
+    margin-right: 260px;
   }
 }
 
 .button-container {
     text-align: center;
+    margin-right: 555px;
     width: 100%;
-    
 }
 
 .donate-button {
@@ -2580,6 +2616,7 @@ header h1{
     animation: glow 0.5s infinite alternate;
     box-shadow: 0 0 20px rgba(30, 30, 240, 0.5);
     display: inline-block;
+    
 }
   
 @keyframes glow {
@@ -2605,6 +2642,6 @@ header h1{
 
 /*hover ends*/
 
-
+/* */
 
 
