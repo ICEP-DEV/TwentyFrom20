@@ -2249,18 +2249,22 @@ body{
 header h1{
   text-align: center;
   font-weight: bold;
-  margin-top: 0;
+  margin-top: 15px;
+  
 }
 header h4{
     text-align: center;
     font-weight: bold;
-    margin-top: 0;
+    margin-top: 15px;
+    margin-right: 555px;
     color: #FDBE33 ;
   }
   
   header img {
+    
     display: block;
     margin: 0 auto; /* This will center the image */
+    margin-left: 620px;
     margin-top: 0;
     
 }
@@ -2276,6 +2280,7 @@ header h4{
   color: #3c3c3c;
   position: relative;
   margin-top: 15px;
+  
 }
 
 .hexa:before{
@@ -2305,6 +2310,7 @@ header h4{
 .timeline {
   position: relative;
   padding: 0;
+  
   width: 100%;
   margin-top: 20px;
   list-style-type: none;
@@ -2361,7 +2367,12 @@ header h4{
   bottom: -4px;
 }
 
-.direction-l,
+.direction-l{
+    float: none;
+    width: 100%;
+    text-align: center;
+    
+  }
 .direction-r {
   float: none;
   width: 100%;
@@ -2434,7 +2445,25 @@ header h4{
   display: inline-block;
   padding: 8px;
 }
+/*Something new*/
+.desc1 {
+    position: relative;
+    margin: 1em 0 0 0;
+    padding: 1em;
+    background: rgb(254,254,254);
+    -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.20);
+    -moz-box-shadow: 0 0 1px rgba(0,0,0,0.20);
+    box-shadow: 0 0 1px rgba(0,0,0,0.20);
+    left: -170px; /* Moves the box 10 pixels to the left */
+  }
 
+.direction-l .desc{
+    position: relative;
+    margin: 1em 1em 0 1em;
+    padding: 1em;
+    
+  }
+/*something new*/
 .desc {
   position: relative;
   margin: 1em 0 0 0;
@@ -2446,7 +2475,7 @@ header h4{
   
 }
 
-.direction-l .desc,
+
 .direction-r .desc {
   position: relative;
   margin: 1em 1em 0 1em;
@@ -2546,16 +2575,18 @@ header h4{
 
 @media(min-width: 992px){
   .timeline {
-    width: 800px;
+    width: 1350px;
     margin: 0 auto;
     margin-top: 20px;
+    margin-right: 555px;
   }
 
   .direction-l {
     position: relative;
     width: 380px;
-    float: left;
-    text-align: right;
+    float: right;
+    text-align: left;
+    margin-right: 540px;
   }
 
   .direction-r {
@@ -2563,11 +2594,13 @@ header h4{
     width: 380px;
     float: right;
     text-align: left;
+    margin-right: 260px;
   }
 }
 
 .button-container {
     text-align: center;
+    margin-right: 555px;
     width: 100%;
 }
 
@@ -2583,6 +2616,7 @@ header h4{
     animation: glow 0.5s infinite alternate;
     box-shadow: 0 0 20px rgba(30, 30, 240, 0.5);
     display: inline-block;
+    
 }
   
 @keyframes glow {
