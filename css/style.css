@@ -218,6 +218,7 @@ a:focus {
     z-index: 999;
     width: 100%;
     overflow-x: inherit;
+    height: 100px;
 }
 
 
@@ -232,8 +233,7 @@ a:focus {
     text-align: center;
     transition: background-color 0.3s ease, transform 0.3s ease;
     box-shadow: 0 0 15px rgba(0, 0, 255, 0.5); /* Blue glow effect */
-    
-   
+
 }
 
 .donate-button span {
@@ -281,13 +281,13 @@ a:focus {
 
 .navbar .navbar-brand {
     margin: 0;
-    width: 800px;
+    width: 700px;
     padding-right: 100px;
 }
 
 .navbar .navbar-brand img {
-    max-width: 400px;
-    max-height: 40px;
+    max-width: 550px;
+    max-height: 250px;
 }
 
 .navbar-dark .navbar-nav .nav-link,
@@ -352,10 +352,6 @@ a:focus {
         letter-spacing: 1px;
         margin-right: 50px;
     }
-
-    .navbar-logo {
-        content: url('img/Picture1.png'); /* Original Image */
-    }
 }
 
 @media (max-width: 991.98px) {   
@@ -372,9 +368,7 @@ a:focus {
         box-shadow: none;
     }
 
-    .navbar-logo {
-        content: url('img/tut.PNG'); /* Smaller Image */
-    }
+    
 }
 
 
@@ -578,7 +572,7 @@ a:focus {
     position: relative;
     margin-bottom: 45px;
     padding: 210px 0 90px 0;
-    text-align: center;
+    text-align: end;
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/page-header.jpg);
     background-attachment: fixed;
     background-position: center;
