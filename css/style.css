@@ -1113,7 +1113,7 @@ a:focus {
 
 .facts .facts-text h3.facts-dollar::after {
     content: "R";
-    right: -18px;
+    left: -18px;
 }
 
 .facts .facts-text p {
