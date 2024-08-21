@@ -5,7 +5,7 @@ body {
     color: #777777;
     font-weight: 500;
     background: #ffffff;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Trebuchet MS ', sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -454,6 +454,34 @@ a:focus {
     margin-bottom: 25px;
 }
 
+.carousel .carousel-text-left
+{
+    position: absolute;
+    right: 100px; /* Move to the left side of the screen */    
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the start of the flex container */
+    flex-direction: column;
+    z-index: 2;
+    
+}
+
+.carousel .carousel-text-left h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.carousel .carousel-text-left p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
 .carousel .carousel-btn .btn.btn-custom {
     color: #ffffff;
 }
@@ -560,13 +588,65 @@ a:focus {
 
 @media (max-width: 575.98px) {
     .carousel .carousel-text h1 {
-        font-size: 25px;
+        font-size: 20px;
+        
     }
     
     .carousel .carousel-text .btn {
         padding: 8px 20px;
         font-size: 14px;
         letter-spacing: 0;
+    }
+
+    .carousel .carousel-text p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .carousel .carousel-text-left h1 {
+        font-size: 35px;
+    }
+    
+    .carousel .carousel-text-left p {
+        font-size: 16px;
+    }
+    
+    .carousel .carousel-text-left .btn {
+        padding: 12px 30px;
+        font-size: 15px;
+        letter-spacing: 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .carousel .carousel-text-left h1 {
+        font-size: 30px;
+        
+    }
+    
+    .carousel .carousel-text-left .btn {
+        padding: 10px 25px;
+        font-size: 15px;
+        letter-spacing: 0;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .carousel .carousel-text-left h1 {
+        font-size: 20px;        
+    }
+    
+    .carousel .carousel-text-left .btn {
+        padding: 8px 20px;
+        font-size: 14px;
+        letter-spacing: 0;
+        margin-left: 100px;
+    }
+
+    .carousel .carousel-text-left p {
+        font-size: 12px;
+        margin-left: 100px;
     }
 }
 
@@ -1115,7 +1195,7 @@ a:focus {
     top: 0px;
     color: #ffffff;
     font-size: 25px;
-    font-family: "Font Awesome 5 Free";
+    font-family: "Trebuchet MS ";
     font-weight: 900;
 }
 
@@ -2054,7 +2134,7 @@ a:focus {
 .sidebar .category-widget ul li::before {
     position: absolute;
     content: '\f105';
-    font-family: 'Font Awesome 5 Free';
+    font-family: 'Trebuchet MS';
     font-weight: 900;
     color: #FDBE33;
     left: 1px;
@@ -2140,7 +2220,7 @@ a:focus {
 .footer .footer-link a::before {
     position: relative;
     content: "\f105";
-    font-family: "Font Awesome 5 Free";
+    font-family: "Trebuchet MS";
     font-weight: 900;
     margin-right: 10px;
 }
@@ -2246,7 +2326,7 @@ a:focus {
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,900);
 
 body{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Trebuchet MS ', sans-serif;
   color: #333;
 }
 
