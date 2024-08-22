@@ -216,11 +216,9 @@ a:focus {
     position: relative;
     transition: .5s;
     z-index: 999;
-<<<<<<< HEAD
-    
-=======
     width: 100%;
     overflow-x: inherit;
+    height: 130px;
 }
 
 
@@ -356,9 +354,6 @@ a:focus {
         margin-right: 50px;
     }
 
-    .navbar-logo {
-        content: url('img/Picture1.png'); /* Original Image */
-    }
 }
 
 @media (max-width: 991.98px) {   
@@ -374,12 +369,7 @@ a:focus {
     .navbar .dropdown-menu {
         box-shadow: none;
     }
-<<<<<<< HEAD
-=======
 
-    .navbar-logo {
-        content: url('img/tut.PNG'); /* Smaller Image */
-    }
 }
 
 
@@ -389,7 +379,7 @@ a:focus {
 .carousel {
     position: relative;
     width: 100%;
-    min-height: 300px;
+    min-height: 500px;
     background: #ffffff;
     margin-bottom: 45px;
 }
