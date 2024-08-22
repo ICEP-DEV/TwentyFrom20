@@ -2370,6 +2370,8 @@ header h1{
   text-align: center;
   font-weight: bold;
   margin-top: 0;
+  
+  
 }
   
  header p{
@@ -2420,6 +2422,7 @@ header h1{
   width: 100%;
   margin-top: 20px;
   list-style-type: none;
+ 
 }
 
 .timeline:before {
@@ -2524,10 +2527,9 @@ header h1{
 }
 
 .time-wrapper {
-  display: block;
+ 
   position: relative;
   margin: 4px 0 0 0;
- 
   line-height: 1em;
   vertical-align: middle;
   color: #fff;
@@ -2661,6 +2663,7 @@ header h1{
     width: 800px;
     margin: 0 auto;
     margin-top: 20px;
+    margin-left: 3cm;
   }
 
   .direction-l {
@@ -2668,6 +2671,7 @@ header h1{
     width: 380px;
     float: left;
     text-align: right;
+   
   }
 
   .direction-r {
@@ -2675,6 +2679,7 @@ header h1{
     width: 380px;
     float: right;
     text-align: left;
+    
   }
 }
 
@@ -2696,6 +2701,7 @@ header h1{
     animation: glow 0.5s infinite alternate;
     box-shadow: 0 0 20px rgba(30, 30, 240, 0.5);
     display: inline-block;
+   
 }
   
 @keyframes glow {
