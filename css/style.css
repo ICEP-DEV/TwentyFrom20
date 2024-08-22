@@ -1202,6 +1202,16 @@ a:focus {
     color: #FDBE33;
    
 }
+/* Sparkles*/
+.facts .tenor-gif-embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    pointer-events: none; /* Make the GIF non-interactive */
+    z-index: 10;
+}
 
 .facts .facts-text {
     padding-left: 10px;
