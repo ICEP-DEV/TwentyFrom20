@@ -793,6 +793,7 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 45px 0;
+    text-align: justify;
 }
 
 .about .section-header {
@@ -855,13 +856,14 @@ a:focus {
 @media (max-width: 575.98px) {
     .about .msizi1 {
         font-size: 15px;
-        text-align: center;
+        text-align: justify;
     }
     
     .carousel .carousel-text .btn {
-        padding: 8px 20px;
+        padding: 8px;
         font-size: 14px;
         letter-spacing: 0;
+        text-align: justify;
     }
 }
 
