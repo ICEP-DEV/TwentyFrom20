@@ -221,8 +221,6 @@ a:focus {
 =======
     width: 100%;
     overflow-x: inherit;
-    height: 100px;
-
 }
 
 
@@ -237,7 +235,8 @@ a:focus {
     text-align: center;
     transition: background-color 0.3s ease, transform 0.3s ease;
     box-shadow: 0 0 15px rgba(0, 0, 255, 0.5); /* Blue glow effect */
-
+    
+   
 }
 
 .donate-button span {
@@ -354,10 +353,11 @@ a:focus {
         padding: 8px 15px;
         font-size: 16px;
         letter-spacing: 1px;
-
         margin-right: 50px;
     }
 
+    .navbar-logo {
+        content: url('img/Picture1.png'); /* Original Image */
     }
 }
 
@@ -377,6 +377,9 @@ a:focus {
 <<<<<<< HEAD
 =======
 
+    .navbar-logo {
+        content: url('img/tut.PNG'); /* Smaller Image */
+    }
 }
 
 
