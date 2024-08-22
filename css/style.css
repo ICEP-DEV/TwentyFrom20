@@ -793,6 +793,7 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 45px 0;
+    text-align: justify;
 }
 
 .about .section-header {
@@ -855,13 +856,14 @@ a:focus {
 @media (max-width: 575.98px) {
     .about .msizi1 {
         font-size: 15px;
-        text-align: center;
+        text-align: justify;
     }
     
     .carousel .carousel-text .btn {
-        padding: 8px 20px;
+        padding: 8px;
         font-size: 14px;
         letter-spacing: 0;
+        text-align: justify;
     }
 }
 
@@ -2374,10 +2376,11 @@ header h1{
   
 }
   
- header p{
+ .start{
    text-align: center;
    margin-bottom: 0;
  }
+
 
 .hexa{
   border: 0px;
@@ -2663,7 +2666,7 @@ header h1{
     width: 800px;
     margin: 0 auto;
     margin-top: 20px;
-    margin-left: 3cm;
+    text-align: center;
   }
 
   .direction-l {
@@ -2720,13 +2723,223 @@ header h1{
 .donate-button:active {
     transform: scale(0.95);
 }
+<<<<<<< HEAD
 /*/*Donation Journey*/
 
 /*hover over grade r image start */
 
 
-/*hover ends*/
+/*Benefits*/
+.service {
+    padding: 30px;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
+    -webkit-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out;
+    top: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+ }
+=======
+>>>>>>> 6d978e303f668f1593abb17df1460173f1d08a45
+
+
+    .service:hover {
+      -webkit-box-shadow: 0 8px 50px -5px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 8px 50px -5px rgba(0, 0, 0, 0.1);
+      top: -2px; }
+
+    .service .service-number {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 60px;
+      flex: 0 0 60px; }
+
+      .service .service-number span {
+        position: relative;
+        width: 10px;
+        height: 10px;
+        line-height: 50px;
+        border-radius: 10%;
+        background: #ce1127;
+        display: inline-block;
+        color: #fff;
+        text-align: center; }
+
+    .service .service-about *:last-child {
+      margin-bottom: 0; }
+
+    .service .service-about h3 {
+      font-size: 1.2rem;
+      margin-bottom: 10px; }
+  
+  .gal-item {
+    margin-bottom: 30px; }
+  
+  .filters .btn {
+    border-color: transparent;
+    font-size: .8rem;
+    margin: 5px;
+    letter-spacing: .2rem;
+    background: rgba(52, 58, 64, 0.05);
+    color: #343a40;
+    padding: 5px 20px;
+    border-radius: 30px !important;
+    border: none !important;
+    text-transform: uppercase; }
+
+    .filters .btn:hover, 
+    .filters .btn:focus, 
+    .filters .btn:active {
+      border-color: transparent !important;
+      background: rgba(52, 58, 64, 0.3) !important;
+      color: #000; }
+
+    .filters .btn.active {
+      background: #000 !important;
+      color: #fff;
+      border-color: #000 !important; }
+
+      .donation-journey-and-benefits {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        margin-top: 20px;
+    }
+
+    .timeline-container {
+        flex: 1; /* Takes up available space */
+        max-width: 60%; /* Adjust as needed */
+    }
+    
+    .benefits-container {
+        flex: 1; /* Takes up available space */
+        max-width: 35%; /* Adjust as needed */
+    }
+
+/* Portfolio start*/
+.portfolio-item .portfolio-btn {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    background: rgba(34, 36, 41, 0.5);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    opacity: 0;
+    transition: .5s;
+  }
+  
+  .portfolio-item:hover .portfolio-btn {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    
+  }
+  
+  .portfolio-item i {
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .3s;
+   
+  
+  }
+  
+  .portfolio-item:hover i {
+    opacity: 1;
+    
+    
+  }
+
+
+  /*portfolio ends*/
+
+
+  /* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 700px;
+    position: relative;
+}
+
+/* Modal Image */
+.modal-img {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 500px;
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* The Navigation Arrows */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    user-select: none;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
 
 
 
+  
 
