@@ -216,11 +216,9 @@ a:focus {
     position: relative;
     transition: .5s;
     z-index: 999;
-<<<<<<< HEAD
-    
-=======
     width: 100%;
     overflow-x: inherit;
+    height: 130px;
 }
 
 
@@ -356,9 +354,6 @@ a:focus {
         margin-right: 50px;
     }
 
-    .navbar-logo {
-        content: url('img/Picture1.png'); /* Original Image */
-    }
 }
 
 @media (max-width: 991.98px) {   
@@ -374,12 +369,7 @@ a:focus {
     .navbar .dropdown-menu {
         box-shadow: none;
     }
-<<<<<<< HEAD
-=======
 
-    .navbar-logo {
-        content: url('img/tut.PNG'); /* Smaller Image */
-    }
 }
 
 
@@ -389,7 +379,7 @@ a:focus {
 .carousel {
     position: relative;
     width: 100%;
-    min-height: 300px;
+    min-height: 500px;
     background: #ffffff;
     margin-bottom: 45px;
 }
@@ -1242,7 +1232,7 @@ a:focus {
 
 .facts .facts-text h3.facts-dollar::after {
     content: "R";
-    right: -18px;
+    left: -18px;
 }
 
 .facts .facts-text p {
@@ -2370,6 +2360,8 @@ header h1{
   text-align: center;
   font-weight: bold;
   margin-top: 0;
+  
+  
 }
   
  header p{
@@ -2420,6 +2412,7 @@ header h1{
   width: 100%;
   margin-top: 20px;
   list-style-type: none;
+ 
 }
 
 .timeline:before {
@@ -2524,10 +2517,9 @@ header h1{
 }
 
 .time-wrapper {
-  display: block;
+ 
   position: relative;
   margin: 4px 0 0 0;
- 
   line-height: 1em;
   vertical-align: middle;
   color: #fff;
@@ -2661,6 +2653,7 @@ header h1{
     width: 800px;
     margin: 0 auto;
     margin-top: 20px;
+    margin-left: 3cm;
   }
 
   .direction-l {
@@ -2668,6 +2661,7 @@ header h1{
     width: 380px;
     float: left;
     text-align: right;
+   
   }
 
   .direction-r {
@@ -2675,6 +2669,7 @@ header h1{
     width: 380px;
     float: right;
     text-align: left;
+    
   }
 }
 
@@ -2696,6 +2691,7 @@ header h1{
     animation: glow 0.5s infinite alternate;
     box-shadow: 0 0 20px rgba(30, 30, 240, 0.5);
     display: inline-block;
+   
 }
   
 @keyframes glow {
