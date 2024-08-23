@@ -2723,29 +2723,6 @@ header h1{
 .donate-button:active {
     transform: scale(0.95);
 }
-<<<<<<< HEAD
-/*/*Donation Journey*/
-
-/*hover over grade r image start */
-
-
-/*Benefits*/
-.service {
-    padding: 30px;
-    background: #fff;
-    -webkit-box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
-    -webkit-transition: .3s all ease-in-out;
-    -o-transition: .3s all ease-in-out;
-    transition: .3s all ease-in-out;
-    top: 0;
-    position: relative;
-    display: flex;
-    align-items: center;
-    height: 100%;
- }
-=======
->>>>>>> 6d978e303f668f1593abb17df1460173f1d08a45
 
 
     .service:hover {
