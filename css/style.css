@@ -2724,78 +2724,62 @@ header h1{
     transform: scale(0.95);
 }
 
+/*
+---------------------------------------------
+benefits
+---------------------------------------------
+*/
 
-    .service:hover {
-      -webkit-box-shadow: 0 8px 50px -5px rgba(0, 0, 0, 0.1);
-      box-shadow: 0 8px 50px -5px rgba(0, 0, 0, 0.1);
-      top: -2px; }
+.donation-journey-and-benefits {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
 
-    .service .service-number {
-      -webkit-box-flex: 0;
-      -ms-flex: 0 0 60px;
-      flex: 0 0 60px; }
+.timeline-container {
+    flex: 1;
+    max-width: 50%; /* Adjust as needed */
+    padding-right: 10px; /* Space between timeline and benefits */
+}
 
-      .service .service-number span {
-        position: relative;
-        width: 10px;
-        height: 10px;
-        line-height: 50px;
-        border-radius: 10%;
-        background: #ce1127;
-        display: inline-block;
-        color: #fff;
-        text-align: center; }
+.benefits {
+    flex: 1;
+    max-width: 65%; /* Adjust as needed */
+    background-color: rgba(250, 250, 250, 0.15);
+    padding: 20px;
+    margin-top: 100px; /* Aligns with the timeline start */
+    align-items: center;
+    padding-right: 10px;
+}
 
-    .service .service-about *:last-child {
-      margin-bottom: 0; }
+.benefits h3 {
+    padding-left: 270px; /* Align with container */
+    padding-bottom: 20px;
+    font-weight: bold;
+}
 
-    .service .service-about h3 {
-      font-size: 1.2rem;
-      margin-bottom: 10px; }
-  
-  .gal-item {
-    margin-bottom: 30px; }
-  
-  .filters .btn {
-    border-color: transparent;
-    font-size: .8rem;
-    margin: 5px;
-    letter-spacing: .2rem;
-    background: rgba(52, 58, 64, 0.05);
-    color: #343a40;
-    padding: 5px 20px;
-    border-radius: 30px !important;
-    border: none !important;
-    text-transform: uppercase; }
+.benefits .item {
+    background-color: #e6b012;
+    padding: 50px;
+    margin-bottom: 15px;
+    width: 650px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
 
-    .filters .btn:hover, 
-    .filters .btn:focus, 
-    .filters .btn:active {
-      border-color: transparent !important;
-      background: rgba(52, 58, 64, 0.3) !important;
-      color: #000; }
+.benefits .item:hover {
+    transform: scale(1.05); /* Slightly enlarge the item */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+}
 
-    .filters .btn.active {
-      background: #000 !important;
-      color: #fff;
-      border-color: #000 !important; }
+.benefits .row {
+    padding-left: 60px;
+}
+.benefits .item p {
+    color: #fff;
+    margin-bottom: 0;
+}
 
-      .donation-journey-and-benefits {
-        display: flex;
-        justify-content: space-between;
-        gap: 50px;
-        margin-top: 20px;
-    }
-
-    .timeline-container {
-        flex: 1; /* Takes up available space */
-        max-width: 60%; /* Adjust as needed */
-    }
-    
-    .benefits-container {
-        flex: 1; /* Takes up available space */
-        max-width: 35%; /* Adjust as needed */
-    }
 
 /* Portfolio start*/
 .portfolio-item .portfolio-btn {
