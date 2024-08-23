@@ -793,6 +793,7 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 45px 0;
+    text-align: justify;
 }
 
 .about .section-header {
@@ -855,13 +856,14 @@ a:focus {
 @media (max-width: 575.98px) {
     .about .msizi1 {
         font-size: 15px;
-        text-align: center;
+        text-align: justify;
     }
     
     .carousel .carousel-text .btn {
-        padding: 8px 20px;
+        padding: 8px;
         font-size: 14px;
         letter-spacing: 0;
+        text-align: justify;
     }
 }
 
@@ -1201,6 +1203,16 @@ a:focus {
     line-height: 60px;
     color: #FDBE33;
    
+}
+/* Sparkles*/
+.facts .tenor-gif-embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    pointer-events: none; /* Make the GIF non-interactive */
+    z-index: 10;
 }
 
 .facts .facts-text {
