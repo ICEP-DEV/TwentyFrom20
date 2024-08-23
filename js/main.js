@@ -202,3 +202,42 @@ document.querySelectorAll('.navbar-nav a[href^="#"]').forEach(anchor => {
 //    });
 // }, {offset: '80%'});
 
+// Get the modal
+var modal = document.getElementById("imageModal");
+var modalImg = document.getElementById("modalImg");
+
+// Get the close button and arrows
+var closeBtn = document.getElementsByClassName("close")[0];
+var nextBtn = document.getElementsByClassName("next")[0];
+var prevBtn = document.getElementsByClassName("prev")[0];
+
+// Array to store all image URLs
+var images = Array.from(document.querySelectorAll('.portfolio-item img')).map(img => img.src);
+var currentIndex = 0;
+
+// Open the modal when an image is clicked
+document.querySelectorAll('.portfolio-item a').forEach((link, index) => {
+    link.addEventListener('click', function(event) {
+        event.preventDefault();
+        currentIndex = index;
+        modal.style.display = "block";
+        modalImg.src = images[currentIndex];
+    });
+});
+
+// Close the modal
+closeBtn.onclick = function() {
+    modal.style.display = "none";
+}
+
+// Show the next image
+nextBtn.onclick = function() {
+    currentIndex = (currentIndex + 1) % images.length;
+    modalImg.src = images[currentIndex];
+}
+
+// Show the previous image
+prevBtn.onclick = function() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    modalImg.src = images[currentIndex];
+}
