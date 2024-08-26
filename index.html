@@ -319,8 +319,8 @@
 
        
         <div class="facts" data-parallax="scroll" data-image-src="img/DONATE.gif" >
-            <div class="container">
-                <div class="row">
+            <div class="container spark">
+                <div class="row ">
                     <div class="col-lg-3 col-md-6">
                         <div class="facts-item">
                         
@@ -362,6 +362,31 @@
                             </div>
                         </div>
                     </div>
+
+                    <script>
+                        document.querySelector('.container.spark').addEventListener('mousemove', function(event) {
+                            let t = document.createElement('t');
+                            t.style.left = (event.pageX) + 'px';
+                            t.style.top = (event.pageY) + 'px';
+                            t.style.scale = `${Math.random() * 2 + 1}`;
+                            t.style.setProperty('--x', getRandomTransitionValue());
+                            t.style.setProperty('--y', getRandomTransitionValue());
+
+                            document.body.appendChild(t);
+
+                            setTimeout(() => {
+                                document.body.removeChild(t);
+                            }, 2000);
+                        });
+
+                        function getRandomTransitionValue()
+                        {
+                            return `${Math.random() * 400 - 200}px`;
+                        }
+
+                       
+                    </script>
+
                 </div>
             </div>
            
