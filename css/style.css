@@ -654,7 +654,7 @@ a:focus {
     position: relative;
     margin-bottom: 45px;
     padding: 210px 0 90px 0;
-    text-align: center;
+    text-align: right; /* Aligns the content to the right */
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/page-header.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -665,22 +665,23 @@ a:focus {
 .page-header h2 {
     position: relative;
     color: #FDBE33;
-    font-size: 60px;
+    font-size: 30px; /* Decreased font size */
     font-weight: 700;
-    margin-bottom: 20px;
-    padding-bottom: 5px;
-    
+    margin-bottom: 0; /* Remove margin to align with underline */
+    padding-bottom: 0px; /* Adjust padding to ensure text is on the underline */
+    display: inline-block; /* Keeps the underline directly under the text */
+    text-align: right; /* Aligns the text to the right */
 }
 
-.page-header h2::after {
+/*.page-header h2::after {
     position: absolute;
     content: "";
     width: 100px;
     height: 2px;
-    left: calc(50% - 50px);
-    bottom: 0;
-    background: #FDBE33;
-}
+    right: 0; /* Position the underline correctly for right-aligned text */
+    /*bottom: 0; *//* Aligns underline with text */
+    /*background: #FDBE33; */
+/*} */
 
 .page-header a {
     position: relative;
@@ -735,6 +736,10 @@ a:focus {
         font-size: 18px;
     }
 }
+
+
+
+
 
 
 /*******************************/
@@ -2899,6 +2904,8 @@ benefits
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
 }
+
+
 
 
 
