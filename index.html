@@ -170,6 +170,90 @@
 
     </section>  
         <!-- Video Modal End -->
+
+        <!-- Facts Start -->
+        <h1 style="color: #4a4c70; font-weight: bold; text-align: center;">Our Target </h1>
+       
+           <!-- Facts Start -->
+
+       
+        <div class="facts" data-parallax="scroll" data-image-src="img/DONATE.gif" >
+            <div class="container spark">
+                <div class="row ">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="facts-item">
+                        
+                            <div class="facts-text">
+                                
+                                <h3 class="facts-dollar" data-toggle="counter-up">11,313</h3>
+                                <p>Raised This Week</p>
+                                <i class="flaticon-donation"></i>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="facts-item">                      
+                            <div class="facts-text">
+                                <h3 class="facts-dollar" data-toggle="counter-up">579,144</h3>
+                                <p>Raised</p>
+                                <i class="flaticon-donation"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="facts-item">                          
+                            <div class="facts-text">
+                                <h3 class="facts-dollar" data-toggle="counter-up">1,200000</h3>
+                                <p>Our Goal</p>
+                                <i class="flaticon-kindness"></i>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6">
+                        <div class="facts-item">                         
+                            <div class="facts-text">
+                                <h3 class="" data-toggle="counter-up">60</h3>
+                                <p>Sponsors</p>
+                                <i class="flaticon-charity"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <script>
+                        document.querySelector('.container.spark').addEventListener('mousemove', function(event) {
+                            let t = document.createElement('t');
+                            t.style.left = (event.pageX) + 'px';
+                            t.style.top = (event.pageY) + 'px';
+                            t.style.scale = `${Math.random() * 2 + 1}`;
+                            t.style.setProperty('--x', getRandomTransitionValue());
+                            t.style.setProperty('--y', getRandomTransitionValue());
+
+                            document.body.appendChild(t);
+
+                            setTimeout(() => {
+                                document.body.removeChild(t);
+                            }, 2000);
+                        });
+
+                        function getRandomTransitionValue()
+                        {
+                            return `${Math.random() * 400 - 200}px`;
+                        }
+
+                       
+                    </script>
+
+                </div>
+            </div>
+           
+        </div>
+    
+        <!-- Facts End -->
+    
+        <!-- Facts End -->
         
         <!-- About Start -->
         <div class="service">
@@ -183,7 +267,7 @@
                                      <div class="row align-items-center">
                                          <div class="msizi1">
                                             
-                                               <h1 style="text-align: center;">About Us</h1>
+                                               <h1 style="text-align: center; font-weight: bold;">About Us</h1>
                                                
                                                     <br>Tshwane University of Technology (TUT) is popularly known as "The People’s University" due to its commitment to providing accessible, quality education across South Africa. Established in 2004 through the merger of three technikons, TUT has grown into the largest contact university in the country. It operates a multi-campus system with a significant presence in five provinces. TUT is a vibrant and diverse institution dedicated to advancing knowledge and fostering innovation, with a thriving community of over 60,000 students. The university has seven faculties, offering an extensive range of qualifications that are fully accredited by relevant educational authorities. In addition to its academic offerings, TUT is deeply involved in research and community engagement, playing a crucial role in addressing societal challenges and contributing to sustainable development. The university’s strategic initiatives aim to create a positive impact on local communities while preparing students to excel in a rapidly evolving global landscape.
                                                              <br></br>
@@ -311,88 +395,7 @@
                 </div>
             </div>
         </div>
-        <!-- Service End -->
-        
-
-        
-        <!-- Facts Start -->
-
-       
-        <div class="facts" data-parallax="scroll" data-image-src="img/DONATE.gif" >
-            <div class="container spark">
-                <div class="row ">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="facts-item">
-                        
-                            <div class="facts-text">
-                                
-                                <h3 class="facts-dollar" data-toggle="counter-up">11,313</h3>
-                                <p>Raised This Week</p>
-                                <i class="flaticon-donation"></i>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="facts-item">                      
-                            <div class="facts-text">
-                                <h3 class="facts-dollar" data-toggle="counter-up">579,144</h3>
-                                <p>Raised</p>
-                                <i class="flaticon-donation"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="facts-item">                          
-                            <div class="facts-text">
-                                <h3 class="facts-dollar" data-toggle="counter-up">1,200000</h3>
-                                <p>Our Goal</p>
-                                <i class="flaticon-kindness"></i>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-3 col-md-6">
-                        <div class="facts-item">                         
-                            <div class="facts-text">
-                                <h3 class="" data-toggle="counter-up">60</h3>
-                                <p>Sponsors</p>
-                                <i class="flaticon-charity"></i>
-                            </div>
-                        </div>
-                    </div>
-
-                    <script>
-                        document.querySelector('.container.spark').addEventListener('mousemove', function(event) {
-                            let t = document.createElement('t');
-                            t.style.left = (event.pageX) + 'px';
-                            t.style.top = (event.pageY) + 'px';
-                            t.style.scale = `${Math.random() * 2 + 1}`;
-                            t.style.setProperty('--x', getRandomTransitionValue());
-                            t.style.setProperty('--y', getRandomTransitionValue());
-
-                            document.body.appendChild(t);
-
-                            setTimeout(() => {
-                                document.body.removeChild(t);
-                            }, 2000);
-                        });
-
-                        function getRandomTransitionValue()
-                        {
-                            return `${Math.random() * 400 - 200}px`;
-                        }
-
-                       
-                    </script>
-
-                </div>
-            </div>
-           
-        </div>
-    
-        <!-- Facts End -->
+        <!-- Service End -->        
 
         <!-- Causes Start -->
     <section id="supported-projects" style="padding-top: 100px; margin-top: -50px;">
@@ -605,6 +608,138 @@
                   
                 </div>
             </div>
+            <!-- ICEP Team Start -->
+        <div class="testimonial">
+            <div class="container">
+                
+                <div class="owl-carousel testimonials-carousel">
+                    <div class="testimonial-item">
+                        <div class="testimonial-profile">
+                            
+                            <div class="testimonial-name">
+                                <h3>Ziyanda Msibi</h3>
+                                <p>Frontend Developer</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-text">
+                            <img src="img/pictures/fundiswa1.jpg" alt="Image" style="width: 80%; height: 350px;">
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-profile">
+                            
+                            <div class="testimonial-name">
+                                <h3>Msizi Makaula</h3>
+                                <p>Frontend Developer</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-text">
+                            <img src="img/pictures/Msizi1.jpg" alt="Image" style="width: 80%; height: 350px;">
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-profile">
+                            
+                            <div class="testimonial-name">
+                                <h3>Fundiswa Khanyi</h3>
+                                <p>Full Stack Developer</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-text">
+                            <img src="img/pictures/Fundiswa3.jpg" alt="Image" style="width: 80%; height: 350px;">
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-profile">
+                            
+                            <div class="testimonial-name">
+                                <h3>Tshiamo Matiza</h3>
+                                <p>Full Stack Developer</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-text">
+                            <img src="img/pictures/Tshiamo1.jpg" alt="Image" style="width: 80%; height: 350px;">
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-profile">
+                            
+                            <div class="testimonial-name">
+                                <h3>Mbali Madlingozi</h3>
+                                <p>Software Tester</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-text">
+                            <img src="img/pictures/Mbali1.jpg" alt="Image" style="width: 80%; height: 350px;">
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-profile">
+                            
+                            <div class="testimonial-name">
+                                <h3>Mohau Rakolota</h3>
+                                <p>Software Tester</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-text">
+                            <img src="img/pictures/Mohau1.jpg" alt="Image" style="width: 80%; height: 350px;">
+                        </div>
+                    </div>
+
+                    <div class="testimonial-item">
+                        <div class="testimonial-profile">
+                            
+                            <div class="testimonial-name">
+                                <h3>Lebone Motaung</h3>
+                                <p>Business Analyst</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-text">
+                            <img src="img/pictures/Karebelo1.jpg" alt="Image" style="width: 80%; height: 350px;">
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-item">
+                        <div class="testimonial-profile">
+                            
+                            <div class="testimonial-name">
+                                <h3>Lesedi Mangena</h3>
+                                <p>Business Analyst</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-text">
+                            <img src="img/pictures/Lesedi1.jpg" alt="Image" style="width: 80%; height: 350px;">
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-profile">
+                            
+                            <div class="testimonial-name">
+                                <h3>Lesego Mokoena</h3>
+                                <p>Business Analyst</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-text">
+                            <img src="img/pictures/Lesego1.jpg" alt="Image" style="width: 80%; height: 350px;">
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-profile">
+                            
+                            <div class="testimonial-name">
+                                <h3>Michael Sibanda</h3>
+                                <p>Scrum Master</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-text">
+                            <img src="img/pictures/Micheal1.jpg" alt="Image" style="width: 80%; height: 350px;">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    <!--ICEP team  End -->
         </div>
     </section>  
         <!-- Team End -->
