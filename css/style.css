@@ -396,9 +396,9 @@ a:focus {
         border-bottom: none;
     }
     
-    .page .navbar {
+    /* .page .navbar {
         background: black!important;
-    }
+    } */
     
     .navbar a.nav-link {
         padding: 8px 15px;
