@@ -277,6 +277,35 @@ a:focus {
 }
 
 
+.sponsor-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 25px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 0 15px rgba(214, 50, 50, 0.5); /* Blue glow effect */
+    
+   
+}
+
+.sponsor-button span {
+    display: inline-block;
+    position: relative;
+}
+
+.sponsor-button:hover {
+    background-color: red; /* Darken the blue on hover */
+    transform: scale(1.1); /* Slightly enlarge the button */
+    box-shadow: 0 0 20px rgba(226, 78, 58, 0.7); /* Enhance the glow on hover */
+}
+
+.sponsor-button:active {
+    transform: scale(0.95); /* Slightly shrink the button on click */
+}
+
 @keyframes shadowColorChange {
     0% {
         box-shadow: 0 2px 5px rgba(0, 47, 255, 0.5);
@@ -373,7 +402,7 @@ a:focus {
     
     .navbar a.nav-link {
         padding: 8px 15px;
-        font-size: 16px;
+        font-size: 19px;
         letter-spacing: 1px;
         margin-right: 50px;
     }
@@ -814,18 +843,37 @@ a:focus {
     }
 }
 
-/*---------------------
-  Logo
-  -----------------------*/
+/* Logo styling */
 .logo {
     background: #FDBE33;
-    padding: 100px 20px;
-  }
+    padding: 10px 20px;
+    overflow: hidden; /* Hide overflowing images */
+    width: 100%; /* Ensure it fits the parent container */
+}
 
-  .logo__carousel.owl-carousel .owl-item img {
-    width: auto;
-    display: inline-block;
-  }
+.logo-container {
+    display: flex;
+    width: calc(6 * 200px); /* Adjust based on the width of each image */
+    animation: scroll 10s linear infinite; /* Scroll animation */
+}
+
+.logo img {
+    padding: 20px;
+    padding-right: 150px;
+
+    width: 400px; /* Adjust image width as needed */
+}
+
+/* Scroll animation */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
 /*******************************/
 /********** About CSS **********/
 /*******************************/
