@@ -396,9 +396,9 @@ a:focus {
         border-bottom: none;
     }
     
-    .page .navbar {
+    /* .page .navbar {
         background: black!important;
-    }
+    } */
     
     .navbar a.nav-link {
         padding: 8px 15px;
@@ -526,7 +526,7 @@ a:focus {
 .carousel .carousel-text-left p {
     color: #ffffff;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 25px;
 }
 
