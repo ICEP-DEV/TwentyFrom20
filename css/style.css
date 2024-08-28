@@ -2134,6 +2134,32 @@ a:focus {
     border-color: #FDBE33;
 }
 
+/**********************************/
+/*********** Values **********/
+/**********************************/
+.row {
+    margin-bottom: 50px; /* Adjust this value as needed */
+}
+
+.col-lg-4, .col-md-6 {
+    padding: 0px; /* Adjust this value as needed */
+    justify-content: space-between;
+    flex:2;
+}
+
+.service-item {
+    display: flex;
+    margin-bottom: -500px; /* Adjust this value as needed */
+    gap:0.3px;
+   
+}
+
+.service-text {
+    padding: 0.005rem; /* Adjust this value as needed */
+    margin-bottom: -40px;
+   
+}
+
 
 /**********************************/
 /*********** Sidebar CSS **********/
