@@ -404,7 +404,7 @@ a:focus {
         padding: 8px 15px;
         font-size: 19px;
         letter-spacing: 1px;
-        margin-right: 50px;
+        margin-right: 30px;
     }
 
 }
@@ -466,8 +466,7 @@ a:focus {
     top: 0;
     right: 0;
     bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, .5);
+    left: 0; 
     z-index: 1;
 }
 
@@ -2130,6 +2129,32 @@ a:focus {
 .single .comment-form input:focus,
 .single .comment-form textarea:focus {
     border-color: #FDBE33;
+}
+
+/**********************************/
+/*********** Values **********/
+/**********************************/
+.row {
+    margin-bottom: 50px; /* Adjust this value as needed */
+}
+
+.col-lg-4, .col-md-6 {
+    padding: 0px; /* Adjust this value as needed */
+    justify-content: space-between;
+    flex:2;
+}
+
+.service-item {
+    display: flex;
+    margin-bottom: -500px; /* Adjust this value as needed */
+    gap:0.3px;
+   
+}
+
+.service-text {
+    padding: 0.005rem; /* Adjust this value as needed */
+    margin-bottom: -40px;
+   
 }
 
 
