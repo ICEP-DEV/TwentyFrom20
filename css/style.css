@@ -2317,6 +2317,9 @@ a:focus {
     margin-top: 45px;
     padding-top: 90px;
     background: #dc0000;
+    z-index: 10; /* Higher z-index ensures it stays above other elements */
+    padding: 20px 0; /* Add padding if needed */
+
 }
 
 .footer .footer-contact,
@@ -2334,6 +2337,7 @@ a:focus {
     font-size: 22px;
     font-weight: 700;
     color: #FDBE33;
+    
 }
 
 .footer .footer-link a {
@@ -2341,6 +2345,7 @@ a:focus {
     margin-bottom: 10px;
     color: #ffffff;
     transition: .3s;
+    text-decoration: none; 
 }
 
 .footer .footer-link a::before {
@@ -2354,6 +2359,8 @@ a:focus {
 .footer .footer-link a:hover {
     color: #FDBE33;
     letter-spacing: 1px;
+    text-decoration: none;
+   
 }
 
 .footer .footer-contact p i {
@@ -2425,6 +2432,18 @@ a:focus {
 .footer .copyright p a:hover {
     color: #FDBE33;
 }
+
+.footer .footer-link h2:hover {
+    text-decoration: none;
+}
+
+/* Ensure hover effects don't interfere with the footer */
+.footer .footer-link a:hover,
+.footer .footer-link h2:hover {
+    text-decoration: none; /* No underline on hover */
+    color: #FDBE33; /* Or any other color you prefer */
+}
+
 
 @media (max-width: 767.98px) {
     .footer .copyright p,
@@ -2874,13 +2893,24 @@ benefits
     position: absolute;
     width: 0;
     height: 0;
-    top: 50%;
-    left: 50%;
-    background: rgba(34, 36, 41, 0.5);
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*background: rgba(34, 36, 41, 0.5);*/
     border: 1px solid transparent;
     border-radius: 4px;
     opacity: 0;
-    transition: .5s;
+    /*transition: .5s;*/
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.5); 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
   }
   
   .portfolio-item:hover .portfolio-btn {
@@ -2905,6 +2935,17 @@ benefits
     
     
   }
+
+  .portfolio-item {
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.portfolio-btn {
+    z-index: 2; /* Keep the button above the image, but below the footer */
+}
+
 
 
   /*portfolio ends*/
