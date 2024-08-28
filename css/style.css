@@ -1352,11 +1352,13 @@ a:focus {
 .team .team-item {
     position: relative;
     margin-bottom: 35px;
+   padding-left: 10px;
 }
 
 .team .team-img {
     position: relative;
     overflow: hidden;
+   
 }
 
 .team .team-img img {
@@ -1419,7 +1421,6 @@ a:focus {
 .team .team-item:hover .team-text {
     height: 160px;
 }
-
 
 
 /*******************************/
