@@ -403,7 +403,6 @@
         <a class="next">&#10095;</a>
     </div>
 </div>
-                     
 
         <!-- Footer Start -->
         <div class="footer">
@@ -440,12 +439,85 @@
                         </div>
                     </div>
                 -->
-
+  <!-- Footer Start -->
+  <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-contact">
+                    <h2>Where To Find Us</h2>
+                    <p><i class="fa fa-map-marker-alt"></i>Advancement and partnerships Office, Dinokeng Building , Floor 2</p>
+                    <p><i class="fa fa-phone-alt"></i>+27 12 382 4755</p>
+                    <p><i class="fa fa-envelope"></i>msibipns@tut.ac.za / </p>
+                    <p><i class="fa fa-envelope"></i>20from20@tut.ac.za </p>
+                    <div class="footer-social">
+                        <a class="btn btn-custom" href="https://x.com/official_tut"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-custom" href="https://www.facebook.com/TUTCommunications"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-custom" href="https://www.youtube.com/channel/UCD4jxDpRYTarILQjtsEQv9Q?view_as=subscriber"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-custom" href="https://www.linkedin.com/school/tshwane-university-of-technology/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
                 </div>
             </div>
-           
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-link">
+                    <h2>Popular Links</h2>
+                    <a href="index.html#about">About Us</a>
+                    <a href="donationjourney.html">Donate</a>
+                    <a href="index.html#supported-projects">Supported Projects</a>
+                    <a href="index.html#events">Upcoming Events</a>
+                </div>
+            </div>
+            <!-- <div class="col-lg-3 col-md-6">
+                <div class="footer-link">
+                    <h2>Useful Links</h2>
+                    <a href="">FQAs</a>
+                </div>
+            </div>
+        -->
+
+  <!-- Footer Start -->
+  <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-contact">
+                    <h2>Where To Find Us</h2>
+                    <p><i class="fa fa-map-marker-alt"></i>Advancement and partnerships Office, Dinokeng Building , Floor 2</p>
+                    <p><i class="fa fa-phone-alt"></i>+27 12 382 4755</p>
+                    <p><i class="fa fa-envelope"></i>msibipns@tut.ac.za / </p>
+                    <p><i class="fa fa-envelope"></i>20from20@tut.ac.za </p>
+                    <div class="footer-social">
+                        <a class="btn btn-custom" href="https://x.com/official_tut"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-custom" href="https://www.facebook.com/TUTCommunications"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-custom" href="https://www.youtube.com/channel/UCD4jxDpRYTarILQjtsEQv9Q?view_as=subscriber"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-custom" href="https://www.linkedin.com/school/tshwane-university-of-technology/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-link">
+                    <h2>Popular Links</h2>
+                    <a href="index.html#about">About Us</a>
+                    <a href="donationjourney.html">Donate</a>
+                    <a href="index.html#supported-projects">Supported Projects</a>
+                    <a href="index.html#events">Upcoming Events</a>
+                </div>
+            </div>
+            <!-- <div class="col-lg-3 col-md-6">
+                <div class="footer-link">
+                    <h2>Useful Links</h2>
+                    <a href="">FQAs</a>
+                </div>
+            </div>
+        -->
+
         </div>
-        <!-- Footer End -->
+    </div>
+   
+</div>
+<!-- Footer End -->
+                     
+
         
         <!-- Back to top button -->
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
@@ -481,15 +553,21 @@
                     entries.forEach(function(entry) {
                         if (entry.isIntersecting) {
                             let lazyImage = entry.target;
+                             
+                     if(lazyImage.tagName.toLowerCase() == 'img')
+                        {
                             lazyImage.src = lazyImage.dataset.src;
                             lazyImage.classList.remove("lazy");
                             lazyImageObserver.unobserve(lazyImage);
+                        }
+                            
                         }
                     });
                 });
 
                 lazyImages.forEach(function(lazyImage) {
                     lazyImageObserver.observe(lazyImage);
+
                 });
             } else {
                 // Fallback for browsers without IntersectionObserver
@@ -502,5 +580,6 @@
         
         </script>
 
+         
     </body>
 </html>
