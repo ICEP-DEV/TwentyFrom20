@@ -2138,7 +2138,7 @@ a:focus {
     margin-bottom: 50px; /* Adjust this value as needed */
 }
 
-.col-lg-4, .col-md-6 {
+.pp {
     padding: 0px; /* Adjust this value as needed */
     justify-content: space-between;
     flex:2;
@@ -2155,7 +2155,7 @@ a:focus {
     padding: 0.005rem; /* Adjust this value as needed */
     margin-bottom: -40px;
    
-}
+} 
 
 
 /**********************************/
@@ -2460,19 +2460,6 @@ a:focus {
 .footer .footer-link h2:hover {
     text-decoration: none;
 }
-
-/* Ensure hover effects don't interfere with the footer */
-.footer .footer-link a:hover,
-.footer .footer-link h2:hover {
-    text-decoration: none; /* No underline on hover */
-    color: #FDBE33; /* Or any other color you prefer */
-}
-
-.footer a:hover {
-    text-decoration: none;
-    color: inherit; /* Prevent color change on hover */
-}
-
 
 
 
@@ -2924,24 +2911,13 @@ benefits
     position: absolute;
     width: 0;
     height: 0;
-    /*top: 50%;*/
-    /*left: 50%;*/
-    /*background: rgba(34, 36, 41, 0.5);*/
+    top: 50%;
+    left: 50%;
+    background: rgba(34, 36, 41, 0.5);
     border: 1px solid transparent;
     border-radius: 4px;
     opacity: 0;
-    /*transition: .5s;*/
-    z-index: 2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: opacity 0.3s ease-in-out;
-    background-color: rgba(0, 0, 0, 0.5); 
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-
+    transition: .5s;
   }
   
   .portfolio-item:hover .portfolio-btn {
@@ -2966,17 +2942,6 @@ benefits
     
     
   }
-
-  .portfolio-item {
-    position: relative;
-    overflow: hidden;
-    
-}
-
-.portfolio-btn {
-    z-index: 2; /* Keep the button above the image, but below the footer */
-}
-
 
 
   /*portfolio ends*/
@@ -3029,7 +2994,7 @@ benefits
 
 .close:hover,
 .close:focus {
-    color: #f8f1f1;
+    color: #bbb;
     text-decoration: none;
     cursor: pointer;
 }
@@ -3059,7 +3024,6 @@ benefits
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
 }
-
 
 
 
@@ -3141,24 +3105,31 @@ benefits
     color: var(--bs-secondary) !important;
 } */
 /*** Country End ***/
+
 h1.display-4 {
     margin-top: -90px; /* Adjust this value as needed */
-    font-size: 2.5rem; /* Adjust this size as needed */
+    font-size: 2.0rem; /* Adjust this size as needed */
+    font-weight: bold;
 }
 
 .row.portfolio-container {
-    margin-top: -40px; /* Adjust this value as needed */
+    margin-top: -30px; /* Adjust this value as needed */
 }
 h1.display-3 {
-    margin-top: -140px; /* Adjust this value as needed */
-    font-size: 2.5rem; /* Adjust this size as needed */
+    margin-top: -200px; /* Adjust this value as needed */
+    font-size: 2.0rem; /* Adjust this size as needed */
+    font-weight: bold;
 }
 
 h1.display-2 {
-    margin-top: -140px; /* Adjust this value as needed */
-    font-size: 2.5rem; /* Adjust this size as needed */
-   
+    margin-top: -200px; /* Adjust this value as needed */
+    font-size: 2.0rem; /* Adjust this size as needed */
+    font-weight: bold;
 }
+
+
+
+
 
 
 
