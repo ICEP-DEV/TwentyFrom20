@@ -716,7 +716,7 @@ a:focus {
 
 .page-header h2 {
     position: relative;
-    color: white;
+    color: #f3f1eb;
     font-size: 40px; /* Decreased font size */
     font-weight: 700;
     margin-bottom: 0; /* Remove margin to align with underline */
@@ -789,9 +789,6 @@ a:focus {
         font-size: 18px;
     }
 }
-
-
-
 
 
 
@@ -2344,8 +2341,8 @@ a:focus {
     margin-top: 45px;
     padding-top: 90px;
     background: #dc0000;
-    z-index: 10; /* Higher z-index ensures it stays above other elements */
-    padding: 20px 0; /* Add padding if needed */
+    z-index: 1000; /* Higher z-index ensures it stays above other elements */
+    padding: 40px 0; /* Add padding if needed */
 
 }
 
@@ -2373,6 +2370,7 @@ a:focus {
     color: #ffffff;
     transition: .3s;
     text-decoration: none; 
+    
 }
 
 .footer .footer-link a::before {
@@ -2470,6 +2468,13 @@ a:focus {
     text-decoration: none; /* No underline on hover */
     color: #FDBE33; /* Or any other color you prefer */
 }
+
+.footer a:hover {
+    text-decoration: none;
+    color: inherit; /* Prevent color change on hover */
+}
+
+
 
 
 @media (max-width: 767.98px) {
@@ -3025,7 +3030,7 @@ benefits
 
 .close:hover,
 .close:focus {
-    color: #bbb;
+    color: #f8f1f1;
     text-decoration: none;
     cursor: pointer;
 }
@@ -3137,4 +3142,26 @@ benefits
     color: var(--bs-secondary) !important;
 } */
 /*** Country End ***/
+h1.display-4 {
+    margin-top: -90px; /* Adjust this value as needed */
+    font-size: 2.5rem; /* Adjust this size as needed */
+}
+
+.row.portfolio-container {
+    margin-top: -40px; /* Adjust this value as needed */
+}
+h1.display-3 {
+    margin-top: -140px; /* Adjust this value as needed */
+    font-size: 2.5rem; /* Adjust this size as needed */
+}
+
+h1.display-2 {
+    margin-top: -140px; /* Adjust this value as needed */
+    font-size: 2.5rem; /* Adjust this size as needed */
+   
+}
+
+
+
+
 
