@@ -427,7 +427,26 @@
                                        
                                        
                                         <br>The aim of the #Twentyfrom20 campaign is to raise R1.2 million by partnering with 60 companies, each donating R20,000, to support three key projects that will empower future leaders and innovators. Running from the 1st of September to the 31st of October, this campaign seeks to build long-term partnerships with companies committed to advancing education and community development. Through your generous contributions, TUT can continue to offer transformative educational opportunities, expand its research initiatives, and make a lasting difference in the lives of students and the communities in which the university operates.
-    
+                                        <!-- Trigger/Open The Modal -->
+                                        <div class="portfolio-btn d-flex align-items-center justify-content-center" style="margin-top: 50px; margin-bottom: -150px;">
+                                            <button id="openModal" class="btn btn-custom btn-play" style="color: #4a4c70;">Watch Video</button>
+                                        </div>
+
+                                       <!-- Trigger button -->
+
+
+                                                            <!-- Modal structure -->
+                                                            <div id="myModal" class="modal">
+                                                                <div class="modal-content">
+                                                                    <span class="closeVid">&times;</span>
+                                                                    <video id="myVideo" width="100%" controls>
+                                                                        <source src="vid/phumla.mp4" type="video/mp4">
+                                                                        Your browser does not support the video tag.
+                                                                    </video>
+                                                                </div>
+                                                            </div>
+
+
                                     </div>
                                 </div>
                         </div>
@@ -727,5 +746,36 @@
         <script src="js/main.js"></script>
         
         <script src="https://web3forms.com/client/script.js" async defer></script>
+
+
+        <script>
+            // Get the modal, button, span, and video elements
+            var modal = document.getElementById("myModal");
+            var btn = document.getElementById("openModal");
+            var span = document.getElementsByClassName("closeVid")[0];
+            var video = document.getElementById("myVideo");
+        
+            // When the user clicks the button, open the modal and play the video
+            btn.onclick = function() {
+                modal.style.display = "block";
+                video.play();  // Play the video as soon as the modal opens
+            }
+        
+            // When the user clicks on <span> (x), close the modal and stop the video
+            span.onclick = function() {
+                modal.style.display = "none";
+                video.pause();          // Pause the video
+                video.currentTime = 0;  // Reset video to start
+            }
+        
+            // When the user clicks anywhere outside of the modal, close it and stop the video
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                    video.pause();          // Pause the video
+                    video.currentTime = 0;  // Reset video to start
+                }
+            }
+        </script>
     </body>
 </html>
