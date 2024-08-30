@@ -1,0 +1,784 @@
+[33mcommit ffad9eb6f9bc4e5fbf203135b5251d0e185e9c31[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mbackup[m[33m)[m
+Merge: f80c083 c354b02
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Wed Aug 21 15:55:42 2024 +0200
+
+    Fixed the landing page
+
+[33mcommit f80c08340bfdbc8a0551125c9ad14fafd097fe66[m
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Wed Aug 21 15:54:57 2024 +0200
+
+    Fixed the landing page
+
+[33mcommit c354b029b80508f25cf708a5c8b9d280df12ae1e[m
+Merge: 5d7af86 d3167af
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Wed Aug 21 15:23:00 2024 +0200
+
+    changes
+
+[33mcommit 5d7af86a94378c949ef19b058d4f7d00d44095ff[m
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Wed Aug 21 15:22:10 2024 +0200
+
+    changes made
+
+[33mcommit d3167af38ef8032d83cfd320c1102147d4996943[m
+Merge: e40e5db bce781e
+Author: M Sibanda <222108144@tut4life.ac.za>
+Date:   Wed Aug 21 15:20:05 2024 +0200
+
+    changies
+
+[33mcommit e40e5db74a2b66a9a085af8166970372ccd50d0a[m
+Merge: 92fc8e7 61a99ec
+Author: M Sibanda <222108144@tut4life.ac.za>
+Date:   Wed Aug 21 15:17:44 2024 +0200
+
+    changies
+
+[33mcommit bce781ee53152a21508f6fbf1d67bb008f18d3f0[m
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Wed Aug 21 14:22:04 2024 +0200
+
+    footer changes
+
+[33mcommit 92fc8e7f57e1c88c484619e9853e17e96decf465[m
+Merge: 98c6b71 afeeb23
+Author: M Sibanda <222108144@tut4life.ac.za>
+Date:   Wed Aug 21 13:30:41 2024 +0200
+
+    changies
+
+[33mcommit 61a99ec2a3533f7c673684b9ae595a394bf1e500[m
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Wed Aug 21 13:29:13 2024 +0200
+
+    changes
+
+[33mcommit 8e09277341f98154a395a8ca5417b80d43457451[m
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Wed Aug 21 13:16:19 2024 +0200
+
+    changes
+
+[33mcommit 2cd327ea3cdb8e5a6a163c0ee51fff9687fb367c[m
+Merge: bcebd18 997b811
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Wed Aug 21 11:38:54 2024 +0200
+
+    changes
+
+[33mcommit bcebd18e30587b7ea44db37c1ec6d53f946b4a9c[m
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Wed Aug 21 11:38:16 2024 +0200
+
+    changes
+
+[33mcommit 997b811375f85895d2d529225720853492827568[m
+Merge: 295869e 7366642
+Author: M Makaula <221109678@tut4life.ac.za>
+Date:   Wed Aug 21 10:00:59 2024 +0200
+
+    Icons and Rands
+
+[33mcommit 295869e12581ed9753b9f1c8daee7f3df95ee78c[m
+Merge: 742bea1 afeeb23
+Author: M Makaula <221109678@tut4life.ac.za>
+Date:   Wed Aug 21 09:58:26 2024 +0200
+
+    Icons and Rands
+
+[33mcommit 73666422555f7544318fce1331ff85992ed5c375[m
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Wed Aug 21 09:57:35 2024 +0200
+
+    editing
+
+[33mcommit 742bea1c5017664ca4c6a9e4a93d09c3dbc393d1[m
+Author: M Makaula <221109678@tut4life.ac.za>
+Date:   Wed Aug 21 08:13:41 2024 +0200
+
+    Update
+
+[33mcommit 98c6b71a7eb4b24bc6f24aba68f9ae83e0ed33e4[m
+Merge: d9bfefd 79a336e
+Author: M Sibanda <222108144@tut4life.ac.za>
+Date:   Tue Aug 20 15:03:48 2024 +0200
+
+    guccii add
+
+[33mcommit afeeb23513b9429d0bde647e885112cf66b5af6a[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Tue Aug 20 10:32:39 2024 +0200
+
+    Logos Removed, Galary Updated
+
+[33mcommit d9bfefdf345891a28d10ba835b7960d95c89a85a[m
+Merge: 424f020 377d75d
+Author: M Sibanda <222108144@tut4life.ac.za>
+Date:   Tue Aug 20 08:08:56 2024 +0200
+
+    add all
+
+[33mcommit 79a336ef897b93d25027d2878a886a68fff46db1[m
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Mon Aug 19 16:11:07 2024 +0200
+
+    Logos Removed, Galary Updated
+
+[33mcommit 6796df93b3f340f202cc7ec323496f77c6455486[m
+Merge: 49f7a86 f719271
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Mon Aug 19 16:05:53 2024 +0200
+
+    Logos Removed, Galary Updated
+
+[33mcommit 49f7a86537042bd04345933f91ea8bb021dc3576[m
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Mon Aug 19 16:03:06 2024 +0200
+
+    Logos Removed, Galary Updated
+
+[33mcommit f71927105fdd78306aafac827c8597c68b3e8d67[m
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Mon Aug 19 15:39:05 2024 +0200
+
+    nav bar
+
+[33mcommit 424f02036f894b7bab85181d983eda69102ad1d9[m
+Merge: 3ef7b00 48a3d80
+Author: M Sibanda <222108144@tut4life.ac.za>
+Date:   Mon Aug 19 15:29:11 2024 +0200
+
+    Guccii added
+
+[33mcommit 377d75df14ee609d484c1e8610f930a527cb9db0[m
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Mon Aug 19 14:38:23 2024 +0200
+
+    nav bar
+
+[33mcommit 3ef7b0023ef67d03cad4140598920b78b93e2d3e[m
+Merge: 5f82a0b cb51e4e
+Author: M Sibanda <222108144@tut4life.ac.za>
+Date:   Mon Aug 19 08:05:00 2024 +0200
+
+    that thing
+
+[33mcommit 48a3d802340c52fe3e8b091393e1b47486948de9[m
+Author: Z Msibi <220247422@tut4life.ac.za>
+Date:   Fri Aug 16 15:49:29 2024 +0200
+
+    Changed poster
+
+[33mcommit 99017f9131cf4acfe6249d4fd272a59cbc61809c[m
+Merge: fefc309 5000d70
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Fri Aug 16 15:46:35 2024 +0200
+
+    Trying to make main site work [Galary]
+
+[33mcommit fefc3093eb3a5f454366fe48c6505934342a1828[m
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Fri Aug 16 15:43:34 2024 +0200
+
+    Trying to make main site work [Galary]
+
+[33mcommit 5000d702b7904acd40023d20d62ca6c6a6e003ae[m
+Merge: 8d18511 9ee9752
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Fri Aug 16 15:20:17 2024 +0200
+
+    Donate button
+
+[33mcommit 8d18511094493fc51a23f90ac4d38e4a62e4172e[m
+Merge: ac9e9b5 5bcd9e4
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Fri Aug 16 15:19:39 2024 +0200
+
+    Donate button
+
+[33mcommit 9ee97528349c1892bd86b5d972973129e8ade008[m
+Author: M Makaula <221109678@tut4life.ac.za>
+Date:   Fri Aug 16 15:12:37 2024 +0200
+
+    Change pictures
+
+[33mcommit ac9e9b57c372d54a13816e05a9dd4ca937a96f05[m
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Fri Aug 16 15:06:12 2024 +0200
+
+    Donae button
+
+[33mcommit 20b97c8e5596d9f15c29c6e11ad4ca2a5bb40ad4[m
+Merge: 1d62015 94f1744
+Author: M Makaula <221109678@tut4life.ac.za>
+Date:   Fri Aug 16 15:05:47 2024 +0200
+
+    Removed pictures
+
+[33mcommit 1d62015cfcdd627e6f6fa3548ccacc49e3655f94[m
+Author: M Makaula <221109678@tut4life.ac.za>
+Date:   Fri Aug 16 15:03:34 2024 +0200
+
+    Removed pictures
+
+[33mcommit 5bcd9e429aa74329184e129a8d25abaa1186f618[m
+Merge: deee266 b9f1386
+Author: M Makaula <221109678@tut4life.ac.za>
+Date:   Fri Aug 16 14:58:09 2024 +0200
+
+    Removed pictures
+
+[33mcommit deee266f789dc5a2aa35761ec258236f2cbe7bb9[m
+Author: M Makaula <221109678@tut4life.ac.za>
+Date:   Fri Aug 16 14:56:26 2024 +0200
+
+    Removed pictures
+
+[33mcommit 94f174489b92243df8dd2a00ca5f6d3d43df747b[m
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Fri Aug 16 14:56:09 2024 +0200
+
+    Trying to make main site work [Galary]
+
+[33mcommit 8d5611d0e437919b3e64275c08391c891c7d788b[m
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Fri Aug 16 14:52:30 2024 +0200
+
+    Trying to make main site work [Galary]
+
+[33mcommit b9f1386e0bc066bec015fbc5fd8ca70d73c96229[m
+Merge: 590009b cb51e4e
+Author: Z Msibi <220247422@tut4life.ac.za>
+Date:   Fri Aug 16 14:50:38 2024 +0200
+
+    Changed space flyers
+
+[33mcommit 590009bb681752f3ba2974d3bd48a3a5d8d2fd8c[m
+Author: Z Msibi <220247422@tut4life.ac.za>
+Date:   Fri Aug 16 14:49:27 2024 +0200
+
+    Changed space flyers
+
+[33mcommit a9fce2d16ccf021ab0719a57d99452416f00917b[m
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Fri Aug 16 14:49:25 2024 +0200
+
+    Trying to make main site work [Galary]
+
+[33mcommit 6418e663e80434b70cbba0b824b82437343b43d0[m
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Fri Aug 16 14:47:23 2024 +0200
+
+    Trying to make main site work [Galary]
+
+[33mcommit 8cc97fdb38b00cb2dd2a78e3ed251e73310197d1[m
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Fri Aug 16 14:46:24 2024 +0200
+
+    Trying to make main site work [Galary]
+
+[33mcommit 5f82a0bc6e0ffdb51a97d6fdfec23c17fe3a8ba2[m
+Author: M Sibanda <222108144@tut4life.ac.za>
+Date:   Fri Aug 16 14:45:49 2024 +0200
+
+    fundiswa
+
+[33mcommit c8e078c96827a04bd119070580200e65b9828613[m
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Fri Aug 16 14:40:59 2024 +0200
+
+    Trying to make main site work [Galary]
+
+[33mcommit cb51e4e2aca574cb53196bd1aa7320ba3d57af08[m
+Merge: 56f6558 8db8975
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Fri Aug 16 14:39:28 2024 +0200
+
+    changes made
+
+[33mcommit 9f5d83215fba9b3b71fc0a2de93351f60080b50a[m
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Fri Aug 16 14:32:12 2024 +0200
+
+    Trying to make main site work [Galary]
+
+[33mcommit 28466534c67cc46ef4f91f6d457af0524515d187[m
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Fri Aug 16 14:24:26 2024 +0200
+
+    Trying to make main site work [Galary]
+
+[33mcommit 29a98f02d3c46be22da8802d19c727281753ef2b[m
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Fri Aug 16 14:21:11 2024 +0200
+
+    Trying to make main site work [Galary]
+
+[33mcommit 56f6558402e5126f5c18fdc73352bb1bfe11ac00[m
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Fri Aug 16 14:07:02 2024 +0200
+
+    changes made
+
+[33mcommit 8db89752483e0f415722e3579b37a8767def1c9f[m
+Merge: 6fcaa9d 16a8f03
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Fri Aug 16 14:04:56 2024 +0200
+
+    Trying to make main site work [Galary]
+
+[33mcommit 6fcaa9d47799a4288b9a9a520fdda05fe3b0bf09[m
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Fri Aug 16 14:04:29 2024 +0200
+
+    Trying to make main site work [Galary]
+
+[33mcommit 16a8f03c721e408c86a1c75a89c8c18daff43c66[m
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Fri Aug 16 14:04:08 2024 +0200
+
+    changes made
+
+[33mcommit d438904b39531726d579281df76884767021d84e[m
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Fri Aug 16 14:02:52 2024 +0200
+
+    changes made
+
+[33mcommit bb0b87fd56a2b1884405791b82405c93a2b39969[m
+Merge: fca4832 eabbbbb
+Author: M Makaula <221109678@tut4life.ac.za>
+Date:   Fri Aug 16 13:56:44 2024 +0200
+
+    Friday
+
+[33mcommit fca4832474ec4866f8c9a99bbed1adffa5520dc7[m
+Author: M Makaula <221109678@tut4life.ac.za>
+Date:   Fri Aug 16 13:54:25 2024 +0200
+
+    Friday changes
+
+[33mcommit eabbbbb5e30e6a66fd11c382630f2a2c70033731[m
+Merge: fea4f6a 31e7762
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Fri Aug 16 13:53:15 2024 +0200
+
+    Trying to make main site work [Galary]
+
+[33mcommit 826d8e544f2fd445124c48acbff9a8b54e5e3af3[m
+Author: M Makaula <221109678@tut4life.ac.za>
+Date:   Fri Aug 16 13:52:10 2024 +0200
+
+    Friday
+
+[33mcommit 31e77621df9d7b7cb201ed810f4bf2492a043781[m
+Merge: 872396d a382307
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Fri Aug 16 13:51:26 2024 +0200
+
+    project leaders
+
+[33mcommit fea4f6a3e2ac7ab07cc6dce8f8f0c9094db18fc0[m
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Fri Aug 16 13:50:31 2024 +0200
+
+    Trying to make main site work [Galary]
+
+[33mcommit 872396de433e23248e72f0d0f2efdb5b3d7fdbfd[m
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Fri Aug 16 13:50:11 2024 +0200
+
+    project leaders
+
+[33mcommit a382307b3f3ee94ea7a967d5fd9156a575922478[m
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Fri Aug 16 13:39:24 2024 +0200
+
+    Galary Page Is Done
+
+[33mcommit 7130789002fa294261ff9128a73df20f63514043[m
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Fri Aug 16 13:36:08 2024 +0200
+
+    Galary Page Is Done
+
+[33mcommit af57c03a11d24aec04a909f934f034cb95fdcd6f[m
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Fri Aug 16 13:09:06 2024 +0200
+
+    Galary Page Is Done
+
+[33mcommit 86f2444e64b671cff095c7606008f43c0a81b98f[m
+Merge: e7995df a70e201
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Fri Aug 16 12:11:07 2024 +0200
+
+    Galary Page Is Done
+
+[33mcommit e7995dfe8f356cd807e7025d4bf757e481601ba5[m
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Fri Aug 16 12:10:34 2024 +0200
+
+    Galary Page Is Done
+
+[33mcommit a70e2017ce3de43324f2f137da140c6b58be375e[m
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Fri Aug 16 12:04:09 2024 +0200
+
+    project leaders
+
+[33mcommit 53c36c85675b8929f8f032d8f877f6d14e36c0ff[m
+Merge: 2a79948 ceebfdd
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Fri Aug 16 12:00:48 2024 +0200
+
+    project leaders
+
+[33mcommit 2a7994885af80d35c32a97d518935a18526f11f9[m
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Fri Aug 16 11:59:37 2024 +0200
+
+    project leaders
+
+[33mcommit ceebfddfcbf5cb1ebb1c3018f6bef6ba79e5bd68[m
+Merge: 76aeb5b 5b9b1a5
+Author: Z Msibi <220247422@tut4life.ac.za>
+Date:   Fri Aug 16 11:59:33 2024 +0200
+
+    Changd
+
+[33mcommit 76aeb5bf30facb7a7375ae5a1c0cf7b5d280b694[m
+Author: Z Msibi <220247422@tut4life.ac.za>
+Date:   Fri Aug 16 11:58:17 2024 +0200
+
+    Change Made
+
+[33mcommit 5b9b1a564603a9835a902a9dfefadc5e07a67301[m
+Merge: 86c754f 16491df
+Author: M Sibanda <222108144@tut4life.ac.za>
+Date:   Fri Aug 16 11:19:13 2024 +0200
+
+    donation journey
+
+[33mcommit 86c754f6504ae4b6af812c5bb8e89db1a65dd95c[m
+Author: M Sibanda <222108144@tut4life.ac.za>
+Date:   Fri Aug 16 11:13:19 2024 +0200
+
+    Fundiswas changies
+
+[33mcommit 16491df40be325c7b4a19b84c9c62278d1633906[m
+Merge: 0a16d5a be8339c
+Author: Z Msibi <220247422@tut4life.ac.za>
+Date:   Fri Aug 16 10:54:20 2024 +0200
+
+    changes
+
+[33mcommit 0a16d5aa05e7a84ffa0f96b73a4f7beab17e05e4[m
+Author: Z Msibi <220247422@tut4life.ac.za>
+Date:   Fri Aug 16 10:53:32 2024 +0200
+
+    changes
+
+[33mcommit be8339c47bfd5f5c644f2b9cd513dfefdb6d9602[m
+Merge: 5965bca fecd4be
+Author: M Sibanda <222108144@tut4life.ac.za>
+Date:   Fri Aug 16 10:42:56 2024 +0200
+
+    updated version
+
+[33mcommit 5965bca809a2286a1914c3f6e1c68a150410af0c[m
+Author: M Sibanda <222108144@tut4life.ac.za>
+Date:   Fri Aug 16 10:38:42 2024 +0200
+
+    updated donation journey
+
+[33mcommit fecd4be6c5f2b0d14054cd846c3ef5f187cb4a38[m
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Fri Aug 16 10:10:59 2024 +0200
+
+    Nav Bar
+
+[33mcommit 0fb496da32d0c01f86c0de774ba7426b3691b6c6[m
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Fri Aug 16 10:01:09 2024 +0200
+
+    Nav Bar
+
+[33mcommit 20a141e44cf8620d6ca3fdd1fd33caebf43594b6[m
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Fri Aug 16 09:49:21 2024 +0200
+
+    Donate Button
+
+[33mcommit 55cb4b8b5378890237941cf932ad1f151bcb6d3a[m
+Merge: 9f20a29 05938c3
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Fri Aug 16 08:52:25 2024 +0200
+
+    changes made
+
+[33mcommit 05938c3b8af6ab5c36280048fbfc58448d015298[m
+Author: M Sibanda <222108144@tut4life.ac.za>
+Date:   Fri Aug 16 08:48:46 2024 +0200
+
+    Donation journy
+
+[33mcommit 9f20a29d892e78acc5d8ad832d03fe35de379d03[m
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Fri Aug 16 08:42:31 2024 +0200
+
+    changes made
+
+[33mcommit f9738528218c6bf6ed8952c83b39e8639a6a6adf[m
+Merge: 4a3eeeb 39da699
+Author: M Sibanda <222108144@tut4life.ac.za>
+Date:   Thu Aug 15 16:17:24 2024 +0200
+
+    mission and vision
+
+[33mcommit 39da69974da6458ffe75f445e31190c4765944a9[m
+Merge: 3904a90 e253f91
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Thu Aug 15 16:15:02 2024 +0200
+
+    added rgb live lighting
+
+[33mcommit 4a3eeebb5178ed6b706614013d517df3e2c9407d[m
+Merge: 9b2e24c e253f91
+Author: M Sibanda <222108144@tut4life.ac.za>
+Date:   Thu Aug 15 16:14:45 2024 +0200
+
+    mission and vision
+
+[33mcommit 3904a90a243a9dcff6b7212de0b22e5edd0a3f46[m
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Thu Aug 15 16:13:41 2024 +0200
+
+    added rgb live lighting
+
+[33mcommit 9b2e24c08ced79e22e52b15c3a91c88d78ba60aa[m
+Author: M Sibanda <222108144@tut4life.ac.za>
+Date:   Thu Aug 15 16:07:36 2024 +0200
+
+    brake
+
+[33mcommit e253f911a0775deba75b67d3f137ef910f911b81[m
+Merge: d8c6c39 b55ac37
+Author: Z Msibi <220247422@tut4life.ac.za>
+Date:   Thu Aug 15 16:00:52 2024 +0200
+
+    Buttons
+
+[33mcommit d8c6c397f727badb1557f26629cf569fd978eceb[m
+Author: Z Msibi <220247422@tut4life.ac.za>
+Date:   Thu Aug 15 16:00:19 2024 +0200
+
+    Buttons
+
+[33mcommit b55ac378ec8a301cab9158a66f7e2465a53db20d[m
+Merge: 404ae5e 4893abc
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Thu Aug 15 15:59:18 2024 +0200
+
+    changes made
+
+[33mcommit 404ae5e69f33de95a1af98bc4a57c2a3841ecc7e[m
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Thu Aug 15 15:57:59 2024 +0200
+
+    changes made
+
+[33mcommit 4893abc42f980d28800b54040b26c40a6f2bf936[m
+Merge: 39abaa9 1d2def9
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Thu Aug 15 15:46:09 2024 +0200
+
+    Animation fully complete
+
+[33mcommit 39abaa9ee7d9e28bb2e0973e2025f18465f1034e[m
+Merge: 1986421 28aebbb
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Thu Aug 15 15:44:13 2024 +0200
+
+    Animation fully complete
+
+[33mcommit 19864219f02084a0947640818467333276fb4da8[m
+Author: T Matiza <221306520@tut4life.ac.za>
+Date:   Thu Aug 15 15:41:38 2024 +0200
+
+    Animation fully complete
+
+[33mcommit 1d2def9abf24e5799f461253ee9c6dd963ea6de6[m
+Merge: 272746d a7964f4
+Author: M Sibanda <222108144@tut4life.ac.za>
+Date:   Thu Aug 15 15:41:29 2024 +0200
+
+    Updating vision and mission
+
+[33mcommit 272746d6ca2ad6a0733fbbc484cf994718e1effe[m
+Merge: 6b92573 28aebbb
+Author: M Sibanda <222108144@tut4life.ac.za>
+Date:   Thu Aug 15 15:39:05 2024 +0200
+
+    Updating vision and mission
+
+[33mcommit a7964f4744893700cf3a98a2d2d46744c9d68a7f[m
+Merge: c12e6ee 6b92573
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Thu Aug 15 15:08:05 2024 +0200
+
+    changes made
+
+[33mcommit c12e6eefafb244429f1932fede2065e6b7548f37[m
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Thu Aug 15 15:05:19 2024 +0200
+
+    changes made
+
+[33mcommit 28aebbb64fe5786bad15bb19a97f3e28d4dd9f74[m
+Author: M Sibanda <222108144@tut4life.ac.za>
+Date:   Thu Aug 15 14:54:22 2024 +0200
+
+    Updating vision and mission
+
+[33mcommit 6b925736a10100a66e0964fc76665b9156f74f48[m
+Author: M Sibanda <222108144@tut4life.ac.za>
+Date:   Thu Aug 15 14:48:29 2024 +0200
+
+    Updating vision and mission
+
+[33mcommit 8c4902ed101e2cd084b2e1ad5e5cedf7a13674b8[m
+Merge: 181062d d025e54
+Author: KISMETtakk <tmatiza19@gmail.com>
+Date:   Thu Aug 15 13:28:49 2024 +0200
+
+    I have added animation for scrolling
+
+[33mcommit 181062daa8edcf7e2fcdfb857ee33b7e24bba28a[m
+Author: KISMETtakk <tmatiza19@gmail.com>
+Date:   Thu Aug 15 13:28:08 2024 +0200
+
+    I have added animation for scrolling
+
+[33mcommit d025e547b01787dbcd954e180be5a5711e879b3a[m
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Thu Aug 15 13:27:12 2024 +0200
+
+    Changes made
+
+[33mcommit 9eebce31620b8d1394d49bee4478d9f7d4f5ccb0[m
+Merge: cda04f6 2106e85
+Author: KISMETtakk <tmatiza19@gmail.com>
+Date:   Thu Aug 15 12:04:29 2024 +0200
+
+    login function done with I am not a robot function
+
+[33mcommit cda04f665d7f67df9bffabbee4ab321076cd06df[m
+Author: KISMETtakk <tmatiza19@gmail.com>
+Date:   Thu Aug 15 12:03:48 2024 +0200
+
+    login function done with I am not a robot function
+
+[33mcommit 2106e856669716a870481882c12643f3ad958f0b[m
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Thu Aug 15 11:58:20 2024 +0200
+
+    Changes made
+
+[33mcommit f8f630c883f4796c26b74770faf6043c61794dbc[m
+Merge: 6dc9b58 8727dca
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Thu Aug 15 11:32:01 2024 +0200
+
+    Changes made
+
+[33mcommit 6dc9b5835d08cae0424b59cce60fb58bff9d8aa5[m
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Thu Aug 15 11:30:34 2024 +0200
+
+    Changes made
+
+[33mcommit 8727dca4d512919406fdbdae287758772c1e4c5e[m
+Merge: d2edb35 e9e1416
+Author: Z Msibi <220247422@tut4life.ac.za>
+Date:   Thu Aug 15 11:27:46 2024 +0200
+
+    Hackathon Read more
+
+[33mcommit d2edb3559783a4b6aed6e278308e678a761fd432[m
+Author: Z Msibi <220247422@tut4life.ac.za>
+Date:   Thu Aug 15 11:25:53 2024 +0200
+
+    Hackathon Read more
+
+[33mcommit e9e14162ce8a5925fbb6f558fac010317790683d[m
+Author: KISMETtakk <tmatiza19@gmail.com>
+Date:   Thu Aug 15 10:12:39 2024 +0200
+
+    login function done
+
+[33mcommit 4e3efe6ebd5a0c1697384498ded175017b0b909f[m
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Thu Aug 15 08:07:28 2024 +0200
+
+    updating the backup branch on cloud
+
+[33mcommit 08e52b0bfe1af8dde90bb881d88ea5739be5228f[m
+Merge: fdf7ebb 6e778fb
+Author: fundiswa20 <139716965+fundiswa20@users.noreply.github.com>
+Date:   Thu Aug 15 07:03:55 2024 +0200
+
+    Resolved merge conflicts
+
+[33mcommit fdf7ebb710cde2ab67544c9232212c7a5efdf516[m
+Author: fundiswa20 <139716965+fundiswa20@users.noreply.github.com>
+Date:   Thu Aug 15 06:59:50 2024 +0200
+
+    Changes made to the More section
+
+[33mcommit 6e778fbd172c7439644a1546f56da571d7f299e9[m
+Author: Ziyanda <ziyandamsibi20@gmail.com>
+Date:   Thu Aug 15 00:34:09 2024 +0200
+
+    Read more Ndumo half done
+
+[33mcommit fbce25e53d4149370f6e5c8eed22d2197d4f9c45[m
+Merge: a3c30df d33a11a
+Author: fundiswa20 <139716965+fundiswa20@users.noreply.github.com>
+Date:   Wed Aug 14 20:45:10 2024 +0200
+
+    Resolved merge conflicts
+
+[33mcommit a3c30dfd4f8a18eb7ddd06411138f7ae8acfb5ce[m
+Author: fundiswa20 <139716965+fundiswa20@users.noreply.github.com>
+Date:   Wed Aug 14 20:38:01 2024 +0200
+
+    Updated the footer and navigation
+
+[33mcommit d33a11a6414dc3a9afbe8e76c664b78e2b0a6926[m
+Author: ICEP-DEV <89523262+ICEP-DEV@users.noreply.github.com>
+Date:   Wed Aug 14 20:19:45 2024 +0200
+
+    Update README.md
+
+[33mcommit 6eb221d37c40b4b95977e546f90f6405ac62be19[m
+Author: F Khanyi <221447646@tut4life.ac.za>
+Date:   Wed Aug 14 15:48:29 2024 +0200
+
+    Structure
+
+[33mcommit dd14c85a7260e47643f65032c1d2b876c8ddad77[m
+Author: D Manosoe <joel.buti97@gmail.com>
+Date:   Wed Aug 7 15:04:18 2024 +0200
+
+    initial commit
+
+[33mcommit 8cd5d7a95c235eb2ac517903ae5ac0de81ccd0ff[m
+Author: ICEP-DEV <89523262+ICEP-DEV@users.noreply.github.com>
+Date:   Wed Aug 7 15:01:51 2024 +0200
+
+    Initial commit
