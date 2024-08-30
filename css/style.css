@@ -743,25 +743,29 @@ a:focus {
 .page-header {
     position: relative;
     margin-bottom: 45px;
-    padding: 210px 0 90px 0;
+    padding: 210px 0 0 0;
     text-align: left; /* Aligns the content to the left */
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/page-header.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-   
+}
+
+.page-header .container {
+    display: flex;
+    align-items: flex-start; /* Aligns content to the top */
+    justify-content: flex-end; /* Aligns content to the left */
+    height: 100%; /* Ensure container takes full height */
 }
 
 .page-header .container h2 {
-    text-align: left;
     color: #ffffff;
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 20px;
-    margin-left: 700px; /* Moves the heading to the left */
-    margin-top: 20px; /* Moves the heading down */
+    margin-top: 80px;
+    
 }
 
 .page-header h2::after {
@@ -955,7 +959,7 @@ a:focus {
     font-weight: 600;
     background: none;
     border-radius: 0;
-    border-bottom: 1px solid rgba(0, 0, 0, .15);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
     transition: none;
 }
 
@@ -1470,6 +1474,52 @@ a:focus {
 .container2{
     padding-left: 650px;
 }
+
+/* Style for the wrapper to center content */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px; /* Optional: Adds padding around the container */
+}
+
+/* Style for the group to ensure proper alignment */
+.group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Optional: Adds space between items */
+}
+
+/* Style for profile containers */
+.profile-lg {
+    flex: 1 1 300px; /* Adjust the width of profile containers */
+    max-width: 300px; /* Optional: Limit maximum width */
+}
+
+/* Style for member cards */
+.member-card {
+    border: 1px solid #ddd; /* Optional: Adds border around the card */
+    border-radius: 8px; /* Optional: Rounds the corners of the card */
+    overflow: hidden; /* Ensures content doesn't overflow */
+    text-align: center; /* Centers text within the card */
+    padding: 15px; /* Optional: Adds padding inside the card */
+}
+
+/* Style for the photo frame */
+.photo-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px; /* Space below the image */
+}
+
+/* Style for images to fit within the frame */
+.photo-frame img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Removes bottom space under the image */
+}
+
+
 .team .team-social a:hover {
     color: #20212B;
     background: #FDBE33;
@@ -1508,7 +1558,7 @@ a:focus {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    border-bottom: 1px solid rgba(218, 0, 0, 0.1);
 }
 
 .testimonial .testimonial-profile img {
@@ -1802,6 +1852,7 @@ a:focus {
     .event .event-text::after {
         display: none;
     }
+    
 }
 
 
