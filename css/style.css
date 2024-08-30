@@ -240,25 +240,6 @@ a:focus {
     position: relative;
     transition: .5s;
     z-index: 999;
-    width: 100%;
-    overflow-x: inherit;
-    height: 130px;
-}
-
-
-
-.donate-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: blue;
-    text-transform: uppercase;
-    font-weight: bold;
-    border-radius: 25px;
-    text-align: center;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    box-shadow: 0 0 15px rgba(0, 0, 255, 0.5); /* Blue glow effect */
-    
-   
 }
 
 .donate-button span {
@@ -266,11 +247,7 @@ a:focus {
     position: relative;
 }
 
-.donate-button:hover {
-    background-color: darkblue; /* Darken the blue on hover */
-    transform: scale(1.1); /* Slightly enlarge the button */
-    box-shadow: 0 0 20px rgba(0, 0, 255, 0.7); /* Enhance the glow on hover */
-}
+
 
 .donate-button:active {
     transform: scale(0.95); /* Slightly shrink the button on click */
@@ -335,8 +312,8 @@ a:focus {
 
 .navbar .navbar-brand {
     margin: 0;
-    width: 800px;
-    padding-right: 100px;
+    width: 700px;
+    padding-right: 00px;
 }
 
 .navbar .navbar-brand img {
@@ -379,6 +356,7 @@ a:focus {
 }
 
 
+
 @media (min-width: 992px) {
     .navbar {
         position: absolute;
@@ -404,7 +382,8 @@ a:focus {
         padding: 8px 15px;
         font-size: 17px;
         letter-spacing: 1px;
-        margin-right: 50px;
+        margin-right: 25px;
+        
     }
 
 }
@@ -424,6 +403,114 @@ a:focus {
     }
 
 }
+
+.donate-pulse-button {
+    background-color: #005289; /* Button color */
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: pulse 3s infinite;
+    transition: all 1s ease-in-out;
+    width: 100%;
+    font-size: 14px;
+}
+ 
+
+/* Pulsing animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1.1);
+    }
+    25% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    75% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+
+/* Media queries for different screen sizes */
+@media (max-width: 768px) {
+    .donate-pulse-button {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .donate-pulse-button {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+    .navbar .navbar-brand {
+        margin: 0;
+        width: 400px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .donate-pulse-button {
+        padding: 5px 8px;
+        font-size: 10px;
+    }
+}
+
+/* Style for the wrapper to center content */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px; /* Optional: Adds padding around the container */
+}
+
+/* Style for the group to ensure proper alignment */
+.group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Optional: Adds space between items */
+}
+
+/* Style for profile containers */
+.profile-lg {
+    flex: 1 1 300px; /* Adjust the width of profile containers */
+    max-width: 300px; /* Optional: Limit maximum width */
+}
+
+/* Style for member cards */
+.member-card {
+    border: 1px solid #ddd; /* Optional: Adds border around the card */
+    border-radius: 8px; /* Optional: Rounds the corners of the card */
+    overflow: hidden; /* Ensures content doesn't overflow */
+    text-align: center; /* Centers text within the card */
+    padding: 15px; /* Optional: Adds padding inside the card */
+}
+
+/* Style for the photo frame */
+.photo-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px; /* Space below the image */
+}
+
+/* Style for images to fit within the frame */
+.photo-frame img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Removes bottom space under the image */
+}
+
+
 
 
 /*******************************/
@@ -467,6 +554,7 @@ a:focus {
     right: 0;
     bottom: 0;
     left: 0; 
+    background: rgba(0, 0, 0, .5);
     z-index: 1;
 }
 
@@ -705,25 +793,27 @@ a:focus {
 .page-header {
     position: relative;
     margin-bottom: 45px;
-    padding: 210px 0 90px 0;
-    text-align: left; /* Aligns the content to the left */
+    padding: 210px 0 0 0;
+    text-align: center; /* Centers the content */
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/page-header.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-   
+}
+
+.page-header .container {
+    display: flex;
+    align-items: flex-start; /* Aligns content to the top */
+    justify-content: flex-end; /* Aligns content to the left */
+    height: 100%; /* Ensure container takes full height */
 }
 
 .page-header .container h2 {
-    text-align: left;
     color: #ffffff;
     font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    margin-left: 700px; /* Moves the heading to the left */
-    margin-top: 20px; /* Moves the heading down */
+    font-weight: 700; 
+    margin-top: 50px;
 }
 
 .page-header h2::after {
@@ -2883,37 +2973,7 @@ header h1{
     
 }
 
-.donate-button {
-    padding: 15px 30px;
-    background-color: #003883;
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    border-radius: 25px;
-    text-align: center;
-    transition: transform 0.3s ease;
-    animation: glow 0.5s infinite alternate;
-    box-shadow: 0 0 20px rgba(30, 30, 240, 0.5);
-    display: inline-block;
-   
-}
-  
-@keyframes glow {
-    from {
-        box-shadow: 0 0 20px rgba(30, 30, 240, 0.5);
-    }
-    to {
-        box-shadow: 0 0 40px rgba(30, 30, 240, 1);
-    }
-}
 
-.donate-button:hover {
-    transform: scale(1.1);
-}
-
-.donate-button:active {
-    transform: scale(0.95);
-}
 
 /*
 ---------------------------------------------
@@ -3196,6 +3256,17 @@ h1.display-2 {
 
 
 
+
+.closeVid {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    z-index: 1000; /* Ensure it's on top */
+    cursor: pointer;
+}
 
 
 
