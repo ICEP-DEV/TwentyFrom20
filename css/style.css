@@ -706,30 +706,34 @@ a:focus {
     position: relative;
     margin-bottom: 45px;
     padding: 210px 0 90px 0;
-    text-align: right; /* Aligns the content to the right */
+    text-align: left; /* Aligns the content to the left */
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/page-header.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
+   
 }
 
 .page-header .container h2 {
-    text-align: right;
-    color: #ffffff; /* Ensures the text color is white */
+    text-align: left;
+    color: #ffffff;
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 20px;
+    margin-left: 700px; /* Moves the heading to the left */
+    margin-top: 20px; /* Moves the heading down */
 }
 
 .page-header h2::after {
-    position: 100%;
+    position: relative;
     content: "";
     width: 100px;
     height: 5px;
-    right: 0; /* Position the underline correctly for right-aligned text */
-    bottom: 0; /* Aligns underline with text */
-    background-color: white; /* Changes underline color to white */
+    left: 0; /* Aligns the underline with the left-aligned text */
+    bottom: -10px; /* Adjusts position of underline relative to the text */
+    background-color: white;
 }
 
 .page-header a {
@@ -765,6 +769,8 @@ a:focus {
     
     .page-header h2 {
         font-size: 45px;
+        margin-left: 15px; /* Adjust for smaller screens */
+        margin-top: 15px; /* Adjust for smaller screens */
     }
     
     .page-header a {
@@ -779,12 +785,27 @@ a:focus {
     
     .page-header h2 {
         font-size: 35px;
+        margin-left: 10px; /* Adjust for smaller screens */
+        margin-top: 10px; /* Adjust for smaller screens */
     }
     
     .page-header a {
         font-size: 18px;
     }
 }
+
+.hi {
+    position: relative;
+    left: 300px; /* Adjust this value to move the element to the left */
+    top: 90px; /* Adjust this value to move the element down */
+    
+}
+
+.hi h2 {
+    text-transform: capitalize;
+}
+
+
 
 
 
