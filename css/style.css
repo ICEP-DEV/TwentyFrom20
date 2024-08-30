@@ -356,6 +356,7 @@ a:focus {
 }
 
 
+
 @media (min-width: 992px) {
     .navbar {
         position: absolute;
@@ -382,6 +383,7 @@ a:focus {
         font-size: 17px;
         letter-spacing: 1px;
         margin-right: 25px;
+        
     }
 
 }
