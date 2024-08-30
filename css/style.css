@@ -240,25 +240,6 @@ a:focus {
     position: relative;
     transition: .5s;
     z-index: 999;
-    width: 100%;
-    overflow-x: inherit;
-    height: 130px;
-}
-
-
-
-.donate-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: blue;
-    text-transform: uppercase;
-    font-weight: bold;
-    border-radius: 25px;
-    text-align: center;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    box-shadow: 0 0 15px rgba(0, 0, 255, 0.5); /* Blue glow effect */
-    
-   
 }
 
 .donate-button span {
@@ -266,11 +247,7 @@ a:focus {
     position: relative;
 }
 
-.donate-button:hover {
-    background-color: darkblue; /* Darken the blue on hover */
-    transform: scale(1.1); /* Slightly enlarge the button */
-    box-shadow: 0 0 20px rgba(0, 0, 255, 0.7); /* Enhance the glow on hover */
-}
+
 
 .donate-button:active {
     transform: scale(0.95); /* Slightly shrink the button on click */
@@ -404,7 +381,7 @@ a:focus {
         padding: 8px 15px;
         font-size: 17px;
         letter-spacing: 1px;
-        margin-right: 50px;
+        margin-right: 25px;
     }
 
 }
@@ -424,6 +401,64 @@ a:focus {
     }
 
 }
+
+.donate-pulse-button {
+    background-color: #005289; /* Button color */
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: pulse 3s infinite;
+    transition: all 1s ease-in-out;
+    width: 100%;
+    font-size: 14px;
+}
+  
+
+/* Pulsing animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1.1);
+    }
+    25% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    75% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+
+/* Media queries for different screen sizes */
+@media (max-width: 768px) {
+    .donate-pulse-button {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .donate-pulse-button {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 375px) {
+    .donate-pulse-button {
+        padding: 5px 8px;
+        font-size: 10px;
+    }
+}
+
 
 
 /*******************************/
@@ -467,6 +502,7 @@ a:focus {
     right: 0;
     bottom: 0;
     left: 0; 
+    background: rgba(0, 0, 0, .5);
     z-index: 1;
 }
 
@@ -2862,37 +2898,7 @@ header h1{
     
 }
 
-.donate-button {
-    padding: 15px 30px;
-    background-color: #003883;
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    border-radius: 25px;
-    text-align: center;
-    transition: transform 0.3s ease;
-    animation: glow 0.5s infinite alternate;
-    box-shadow: 0 0 20px rgba(30, 30, 240, 0.5);
-    display: inline-block;
-   
-}
-  
-@keyframes glow {
-    from {
-        box-shadow: 0 0 20px rgba(30, 30, 240, 0.5);
-    }
-    to {
-        box-shadow: 0 0 40px rgba(30, 30, 240, 1);
-    }
-}
 
-.donate-button:hover {
-    transform: scale(1.1);
-}
-
-.donate-button:active {
-    transform: scale(0.95);
-}
 
 /*
 ---------------------------------------------
