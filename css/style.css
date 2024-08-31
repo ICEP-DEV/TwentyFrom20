@@ -2981,31 +2981,33 @@ benefits
 ---------------------------------------------
 */
 
+/* General Styles */
 .donation-journey-and-benefits {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
 }
 
 .timeline-container {
     flex: 1;
-    max-width: 50%; /* Adjust as needed */
-    padding-right: 10px; /* Space between timeline and benefits */
+    max-width: 50%; 
+    padding-right: 10px;
 }
 
 .benefits {
     flex: 1;
-    max-width: 65%; /* Adjust as needed */
+    max-width: 65%;
     background-color: rgba(250, 250, 250, 0.15);
     padding: 20px;
-    margin-top: 100px; /* Aligns with the timeline start */
+    margin-top: 100px;
     align-items: center;
     padding-right: 10px;
 }
 
 .benefits h3 {
-    padding-left: 270px; /* Align with container */
+    padding-left: 270px;
     padding-bottom: 20px;
     font-weight: bold;
 }
@@ -3014,23 +3016,82 @@ benefits
     background-color: #e6b012;
     padding: 50px;
     margin-bottom: 15px;
-    width: 650px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    max-width: 650px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .benefits .item:hover {
-    transform: scale(1.05); /* Slightly enlarge the item */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .benefits .row {
     padding-left: 60px;
 }
+
 .benefits .item p {
     color: #fff;
     margin-bottom: 0;
 }
 
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .benefits h3 {
+        padding-left: 180px; /* Adjust for smaller desktops */
+    }
+    .benefits .item {
+        max-width: 800px;
+        padding: 70px;
+    }
+}
+
+@media (max-width: 992px) {
+    .timeline-container, .benefits {
+        max-width: 100%;
+        padding: 10px;
+    }
+    .benefits h3 {
+        padding-left: 100px;
+    }
+    .benefits .item {
+        padding: 30px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .donation-journey-and-benefits {
+        flex-direction: column;
+    }
+    .benefits h3 {
+        padding-left: 50px;
+    }
+    .benefits .item {
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+    .benefits .row {
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .benefits {
+        margin-top: 50px;
+        padding: 15px;
+    }
+    .benefits h3 {
+        padding-left: 20px;
+        font-size: 1.5rem;
+    }
+    .benefits .item {
+        padding: 15px;
+        max-width: 100%;
+    }
+    .benefits .row {
+        padding-left: 10px;
+    }
+}
 
 /* Portfolio start*/
 .portfolio-item .portfolio-btn {
@@ -3068,8 +3129,6 @@ benefits
     
     
   }
-
-
   /*portfolio ends*/
 
 
