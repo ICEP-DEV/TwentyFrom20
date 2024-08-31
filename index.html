@@ -736,14 +736,14 @@
         <script src="lib/waypoints/waypoints.min.js"></script>
         <script src="lib/counterup/counterup.min.js"></script>
         <script src="lib/parallax/parallax.min.js"></script>
-        
+
         <!-- Contact Javascript File -->
         <script src="mail/jqBootstrapValidation.min.js"></script>
         <script src="mail/contact.js"></script>
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
-        
+
         <script src="https://web3forms.com/client/script.js" async defer></script>
 
 
@@ -753,20 +753,19 @@
             var btn = document.getElementById("openModal");
             var span = document.getElementsByClassName("closeVid")[0];
             var video = document.getElementById("myVideo");
-        
+
             // When the user clicks the button, open the modal and play the video
             btn.onclick = function() {
                 modal.style.display = "block";
                 video.play();  // Play the video as soon as the modal opens
             }
-        
+
             // When the user clicks on <span> (x), close the modal and stop the video
             span.onclick = function() {
                 modal.style.display = "none";
                 video.pause();          // Pause the video
                 video.currentTime = 0;  // Reset video to start
             }
-        
             // When the user clicks anywhere outside of the modal, close it and stop the video
             window.onclick = function(event) {
                 if (event.target == modal) {
