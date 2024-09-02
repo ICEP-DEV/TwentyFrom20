@@ -3005,7 +3005,7 @@ benefits
 }
 
 .benefits h3 {
-    padding-left: 270px; /* Align with container */
+    padding-left: 310px; /* Align with container */
     padding-bottom: 20px;
     font-weight: bold;
 }
@@ -3030,6 +3030,7 @@ benefits
     color: #fff;
     margin-bottom: 0;
 }
+
 
 
 /* Portfolio start*/
