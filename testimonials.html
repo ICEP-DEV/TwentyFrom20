@@ -13,7 +13,6 @@
 
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-        
         <!-- CSS Libraries -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -56,7 +55,10 @@
                         <a href="index.html#supported-projects" class="nav-item nav-link">Supported Projects</a>
                         <a href="index.html#events" class="nav-item nav-link">Events</a>
                         <a href="index.html#donate" class="nav-item nav-link" style="padding-right: 45px;">Contact Us</a>
-                        <a href="donationjourney.html" class="nav-item nav-link donate-button"><span style=" color: white;">DONATE</span></a>
+
+                        <a href="donationjourney.html" class="nav-item nav-link donate-button">
+                            <button class="donate-pulse-button">DONATE</button>
+                        </a>
                     </div>
                     </div>
                 </div>
@@ -68,9 +70,9 @@
      <!-- Page Header Start -->
      <div class="page-header">
         <div class="container">
-            <div class="row">
-                <div class="col-12 hi">
-                    <h2> TESTIMONIALS </h2>
+            <div class="row  justify-content-center">
+                <div class="col-12 text-center">
+                    <h2>TESTIMONIALS</h2>
                 </div>
             </div>
         </div>
@@ -81,64 +83,99 @@
         <div class="testimonial">
             <div class="container">
                 <div class="section-header text-center">
-                    
+
                     <h2>Here’s what our Stakeholders have to say about our projects…
                     </h2>
                 </div>
                 <div class="owl-carousel testimonials-carousel">
                     <div class="testimonial-item">
                         <div class="testimonial-profile">
-                            
+
                             <div class="testimonial-name">
                                 <h3>Tshwane Varsity Hackathon</h3>
                                 <p>Participant</p>
                             </div>
                         </div>
                         <div class="testimonial-text">
-                            <img src="img/testimonial2.PNG" alt="Image">
+                            <img src="https://s3.eu-west-1.amazonaws.com/20from20.org/img/testimonial2.PNG" alt="Image">
+                        </div>
+                    </div>
+
+                    <div class="testimonial-item">
+                        <div class="testimonial-profile">
+
+                            <div class="testimonial-name">
+                                <h3>Tshwane Varsity Hackathon</h3>
+                                <p>Participants</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-text">
+                            <img src="img/BLACKK.gif" alt="Image">
+                            <a id="openModal1" class="play-btn video-popup" style="cursor: pointer;">
+                                <i class="fa fa-play" style="color: #FDBE33;"></i>
+                            </a>
+                        </div>
+
+                        <div id="myModal1" class="modal">
+                            <div class="modal-content">
+                                <span class="closeVid">&times;</span>
+                                <video id="myVideo1" width="100%" controls>
+                                    <source src="https://s3.eu-west-1.amazonaws.com/20from20.org/vid/tvh testimonial.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
                         </div>
                     </div>
                     <div class="testimonial-item">
                         <div class="testimonial-profile">
-                            
+
                             <div class="testimonial-name">
                                 <h3>Tshwane Varsity Hackathon</h3>
                                 <p>Participant</p>
                             </div>
                         </div>
                         <div class="testimonial-text">
-                            <img src="img/testimonial1.PNG" alt="Image">
+                            <img src="https://s3.eu-west-1.amazonaws.com/20from20.org/img/testimonial1.PNG" alt="Image">
                         </div>
                     </div>
                     <div class="testimonial-item">
                         <div class="testimonial-profile">
-                            
+
                             <div class="testimonial-name">
                                 <h3>Ndumo Community Project</h3>
                                 <p>Testimonial</p>
                             </div>
                         </div>
-                        
                         <div class="testimonial-text">
                             <img src="img/BLACKK.gif" alt="Image">
-                            <a href="vid/t1.mp4" class="play-btn video-popup">
-                                <i class="fa fa-play"></i>
+                            <a id="openModal2" class="play-btn video-popup" style="cursor: pointer;">
+                                <i class="fa fa-play" style="color: #FDBE33;"></i>
                             </a>
+                        </div>
+
+                        <div id="myModal2" class="modal">
+                            <div class="modal-content">
+                                <span class="closeVid" style="color: grey;">&times;</span>
+                                <video id="myVideo2" width="100%" controls>
+                                    <source src="https://s3.eu-west-1.amazonaws.com/20from20.org/vid/t1.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
                         </div>
                     </div>
                     <div class="testimonial-item">
                         <div class="testimonial-profile">
-                            
+
                             <div class="testimonial-name">
                                 <h3>Grade R Centre of Excellence</h3>
                                 <p>Testimonial</p>
                             </div>
                         </div>
                         <div class="testimonial-text">
-                            <img src="img/IMG12.JPG" alt="Image">
+                            <img src="https://s3.eu-west-1.amazonaws.com/20from20.org/img/IMG12.JPG" alt="Image">
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -174,13 +211,13 @@
                     </div>
                 </div>
             </div>
-           
+
         </div>
         <!-- Footer End -->
-        
+
         <!-- Back to top button -->
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-        
+
         <!-- Pre Loader -->
         <div id="loader" class="show">
             <div class="loader"></div>
@@ -194,14 +231,67 @@
         <script src="lib/waypoints/waypoints.min.js"></script>
         <script src="lib/counterup/counterup.min.js"></script>
         <script src="lib/parallax/parallax.min.js"></script>
-        
+
         <!-- Contact Javascript File -->
         <script src="mail/jqBootstrapValidation.min.js"></script>
         <script src="mail/contact.js"></script>
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+        <script>
 
+                        // Video 1
+            var modal1 = document.getElementById("myModal1");
+            var btn1 = document.getElementById("openModal1");
+            var span1 = modal1.getElementsByClassName("closeVid")[0];
+            var video1 = document.getElementById("myVideo1");
+
+            btn1.onclick = function() {
+                modal1.style.display = "block";
+                video1.play();
+            }
+
+            span1.onclick = function() {
+                modal1.style.display = "none";
+                video1.pause();
+                video1.currentTime = 0;
+            }
+
+            window.onclick = function(event) {
+                if (event.target == modal1) {
+                    modal1.style.display = "none";
+                    video1.pause();
+                    video1.currentTime = 0;
+                }
+            }
+
+            // Video 2
+            var modal2 = document.getElementById("myModal2");
+            var btn2 = document.getElementById("openModal2");
+            var span2 = modal2.getElementsByClassName("closeVid")[0];
+            var video2 = document.getElementById("myVideo2");
+
+            btn2.onclick = function() {
+                modal2.style.display = "block";
+                video2.play();
+            }
+
+            span2.onclick = function() {
+                modal2.style.display = "none";
+                video2.pause();
+                video2.currentTime = 0;
+            }
+
+            window.onclick = function(event) {
+                if (event.target == modal2) {
+                    modal2.style.display = "none";
+                    video2.pause();
+                    video2.currentTime = 0;
+                }
+            }
+
+
+        </script>
 
 
     </body>
