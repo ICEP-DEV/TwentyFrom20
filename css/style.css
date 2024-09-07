@@ -112,7 +112,7 @@ a:focus {
 /**********************************/
 /****** Loader & Back to Top ******/
 /**********************************/
-#loader {
+/* #loader {
     position: fixed;
     top: 0;
     right: 0;
@@ -185,7 +185,7 @@ a:focus {
 
 .back-to-top:hover i {
     color: #FDBE33;
-}
+} */
 
 
 /**********************************/
