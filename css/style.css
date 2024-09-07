@@ -8,6 +8,7 @@ body {
     font-family: 'Trebuchet MS ', sans-serif;
     padding: 0;
     margin: 0;
+    
 }
  t
 {
@@ -107,12 +108,40 @@ a:focus {
     font-size: inherit;
     margin-left: 0;
 }
+/* guccii */
+@media (max-width: 1024px) {
+    /* Tablet styles */
+    .btn.btn-custom {
+        font-size: 14px;
+        padding: 10px 18px;
+    }
+}
 
+@media (max-width: 768px) {
+    /* Mobile styles */
+    .btn.btn-custom {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Small mobile styles */
+    .btn.btn-custom {
+        font-size: 10px;
+        padding: 6px 14px;
+    }
+}
+/* guccii */
 
 /**********************************/
 /****** Loader & Back to Top ******/
 /**********************************/
-/* #loader {
+#loader {
     position: fixed;
     top: 0;
     right: 0;
@@ -185,7 +214,7 @@ a:focus {
 
 .back-to-top:hover i {
     color: #FDBE33;
-} */
+}
 
 
 /**********************************/
