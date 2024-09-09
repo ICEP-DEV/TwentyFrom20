@@ -181,6 +181,37 @@ $(document).ready(function () {
             }
         }
     });
+
+    (function ($) {
+        // Existing code...
+    
+        function toggleEventContent() {
+            if (window.innerWidth <= 575.98) {
+                document.getElementById('event-small').style.display = 'block';
+                document.getElementById('event-medium').style.display = 'none';
+                document.getElementById('event-small-2').style.display = 'block';
+                document.getElementById('event-medium-2').style.display = 'none';
+            } else if (window.innerWidth <= 991.98) {
+                document.getElementById('event-small').style.display = 'none';
+                document.getElementById('event-medium').style.display = 'block';
+                document.getElementById('event-small-2').style.display = 'none';
+                document.getElementById('event-medium-2').style.display = 'block';
+            } else {
+                document.getElementById('event-small').style.display = 'none';
+                document.getElementById('event-medium').style.display = 'block';
+                document.getElementById('event-small-2').style.display = 'none';
+                document.getElementById('event-medium-2').style.display = 'block';
+            }
+        }
+    
+        // Run the function on page load
+        toggleEventContent();
+    
+        // Run the function on window resize
+        window.addEventListener('resize', toggleEventContent);
+    
+    })(jQuery);
+    
     
 })(jQuery);
 
