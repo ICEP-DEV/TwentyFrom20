@@ -846,7 +846,7 @@ a:focus {
     display: flex;
     align-items: flex-start; /* Aligns content to the top */
     justify-content: flex-end; /* Aligns content to the left */
-    height: 100%; /* Ensure container takes full height */
+    
 }
 
 .page-header .container h2 {
@@ -1189,12 +1189,15 @@ a:focus {
 /*******************************/
 /********* Donate CSS **********/
 /*******************************/
+
 .donate {
     position: relative;
     width: 100%;
-    margin: 45px 0;    
+    margin: 45px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease-in-out, margin 0.3s ease-in-out;
+   
 }
-
 
 .donate .donate-content {
     padding: 45px 0 15px 0;
@@ -1222,7 +1225,7 @@ a:focus {
 }
 
 .donate .donate-form {
-    padding: 48px 52px;
+    padding: 90px 30px;
     background: #FDBE33;
 }
 
@@ -1323,11 +1326,6 @@ a:focus {
     .donate {
         margin: 15px 0;
         background-color: rgba(0, 0, 0, 0.6); /* Even lighter background for extra small screens */
-        
-    }
-    .contact-us-p
-    {
-        color: #ffffff;
         
     }
 }
@@ -1496,7 +1494,7 @@ a:focus {
 }
 
 .facts .facts-text {
-    padding-left: 10px;
+    margin-left: 30px;
     
 }
 
@@ -2582,10 +2580,10 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 45px;
-    padding-top: 80px;
+    padding-top: 90px;
     background: #dc0000;
     z-index: 1000; /* Higher z-index ensures it stays above other elements */
-    padding: 80px 0; /* Add padding if needed */
+    padding: 40px 0; /* Add padding if needed */
 
 }
 
