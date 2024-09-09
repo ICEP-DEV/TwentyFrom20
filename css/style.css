@@ -911,7 +911,15 @@ a:focus {
     .page-header a {
         font-size: 18px;
     }
+
+    .page-header .container h2 {
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 700; 
+        margin-top: 50px;
+    }
 }
+
 
 .hi {
     position: relative;
