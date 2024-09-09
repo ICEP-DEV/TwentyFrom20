@@ -1208,11 +1208,11 @@ a:focus {
 }
 
 .donate .donate-form .control-group {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .donate .donate-form .form-control {
-    height: 60px;
+    height: 40px;
     color: #ffffff;
     padding: 0 15px;
     border-radius: 0;
@@ -3018,6 +3018,7 @@ benefits
 ---------------------------------------------
 */
 
+/* Default for larger screens */
 .donation-journey-and-benefits {
     display: flex;
     flex-direction: row;
@@ -3063,12 +3064,87 @@ benefits
 .benefits .row {
     padding-left: 60px;
 }
+
 .benefits .item p {
     color: #fff;
     margin-bottom: 0;
 }
 
+/* Media query for tablets and small laptops (max width 1024px) */
+@media (max-width: 1024px) {
+    .benefits {
+        max-width: 100%;
+        padding-right: 0;
+        margin-top: 50px;
+    }
 
+    .benefits h3 {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .benefits .item {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .benefits .row {
+        padding-left: 0;
+    }
+}
+
+/* Media query for mobile devices (max width 768px) */
+@media (max-width: 768px) {
+    .donation-journey-and-benefits {
+        flex-direction: column;
+    }
+
+    .timeline-container {
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .benefits {
+        max-width: 100%;
+        padding: 10px;
+        margin-top: 30px;
+    }
+
+    .benefits h3 {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .benefits .item {
+        padding: 20px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .benefits .row {
+        padding-left: 0;
+    }
+}
+
+/* Media query for extra-small mobile devices (max width 480px) */
+@media (max-width: 480px) {
+    .benefits {
+        padding: 5px;
+    }
+
+    .benefits h3 {
+        font-size: 1.5rem;
+    }
+
+    .benefits .item {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .benefits .item p {
+        font-size: 0.9rem;
+    }
+}
 
 
 /* Portfolio start*/
