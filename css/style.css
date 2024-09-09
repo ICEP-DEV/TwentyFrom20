@@ -1171,11 +1171,11 @@ a:focus {
 }
 
 .donate .donate-form .control-group {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .donate .donate-form .form-control {
-    height: 60px;
+    height: 40px;
     color: #ffffff;
     padding: 0 15px;
     border-radius: 0;
