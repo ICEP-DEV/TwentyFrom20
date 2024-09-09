@@ -494,7 +494,7 @@ a:focus {
     }
     .navbar .navbar-brand {
         margin: 0;
-        width: 400px;
+        width: 200px;
         padding: 0;
     }
 }
@@ -1005,7 +1005,7 @@ a:focus {
 
 /* Logo styling */
 .logo {
-    background: #FDBE33;
+    background: white;
     padding: 10px 20px;
     overflow: hidden; /* Hide overflowing images */
     width: 100%; /* Ensure it fits the parent container */
@@ -2584,25 +2584,52 @@ a:focus {
     background: #dc0000;
     z-index: 1000; /* Higher z-index ensures it stays above other elements */
     padding: 40px 0; /* Add padding if needed */
+<<<<<<< HEAD
+=======
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the contents */
+    justify-content: center;
+    /* Align text in the center */
+>>>>>>> e4ecee8ebe03b4920652ede4db5159df79a9f1d8
 
 }
 
+.footer .container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: -45px;
+}
 .footer .footer-contact,
 .footer .footer-link,
 .footer .footer-newsletter {
     position: relative;
     margin-bottom: 45px;
     color: #ffffff;
+    width: 100%;
+    max-width: 300px;
 }
 
 .footer .footer-contact h2,
 .footer .footer-link h2,
 .footer .footer-newsletter h2 {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 22px;
     font-weight: 700;
     color: #FDBE33;
-    
+    /* text-align: center; */
 }
 
 .footer .footer-link a {
@@ -2610,13 +2637,13 @@ a:focus {
     margin-bottom: 10px;
     color: #ffffff;
     transition: .3s;
-    text-decoration: none; 
-    
+    text-decoration: none; position: relative; /* Ensure relative positioning to place bullet icons */
+    padding-left: 20px;
 }
 
 .footer .footer-link a::before {
     position: relative;
-    content: "\f105";
+    content: "\2022";
     font-family: "Trebuchet MS";
     font-weight: 900;
     margin-right: 10px;
@@ -2636,12 +2663,16 @@ a:focus {
 .footer .footer-social {
     position: relative;
     margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Center social icons horizontally */
+    gap: 10px; /* Add some space between icons */
 }
 
 .footer .footer-social a {
     width: 40px;
     height: 40px;
     padding: 6px 0;
+    text-align: center;
 }
 
 .footer .footer-social a {
