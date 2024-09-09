@@ -1140,6 +1140,7 @@ a:focus {
     background: rgba(0, 0, 0, .5);
 }
 
+
 .donate .donate-content {
     padding: 45px 0 15px 0;
 }
@@ -1166,7 +1167,7 @@ a:focus {
 }
 
 .donate .donate-form {
-    padding: 90px 30px;
+    padding: 48px 52px;
     background: #FDBE33;
 }
 
@@ -2494,10 +2495,10 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 45px;
-    padding-top: 90px;
+    padding-top: 80px;
     background: #dc0000;
     z-index: 1000; /* Higher z-index ensures it stays above other elements */
-    padding: 40px 0; /* Add padding if needed */
+    padding: 80px 0; /* Add padding if needed */
 
 }
 
