@@ -177,6 +177,31 @@ a:focus {
     animation: spin 2s linear infinite;
 }
 
+#supported-projects {
+    padding-top: 90px; /* Adjust this value as needed */
+    margin-top: -90px; /* Adjust this value to compensate */
+}
+
+#about{
+    padding-top: 130px; /* Adjust this value as needed */
+    margin-top: -130px; /* Adjust this value to compensate */
+}
+
+#about1{
+    padding-top: 90px; /* Adjust this value as needed */
+    margin-top: -90px; /* Adjust this value to compensate */
+}
+
+#events{
+    padding-top: 90px; /* Adjust this value as needed */
+    margin-top: -90px; /* Adjust this value to compensate */
+}
+
+#donate{
+    padding-top: 160px; /* Adjust this value as needed */
+    margin-top: -160px; /* Adjust this value to compensate */
+}
+
 @-webkit-keyframes spin {
     0% { -webkit-transform: rotate(0deg); }
     100% { -webkit-transform: rotate(360deg); }
