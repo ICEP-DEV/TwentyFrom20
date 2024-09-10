@@ -60,7 +60,6 @@ a {
 
 
 
-
 a:hover,
 a:active,
 a:focus {
@@ -176,6 +175,31 @@ a:focus {
     border-radius: 50%;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
+}
+
+#supported-projects {
+    padding-top: 90px; /* Adjust this value as needed */
+    margin-top: -90px; /* Adjust this value to compensate */
+}
+
+#about{
+    padding-top: 130px; /* Adjust this value as needed */
+    margin-top: -130px; /* Adjust this value to compensate */
+}
+
+#about1{
+    padding-top: 90px; /* Adjust this value as needed */
+    margin-top: -90px; /* Adjust this value to compensate */
+}
+
+#events{
+    padding-top: 90px; /* Adjust this value as needed */
+    margin-top: -90px; /* Adjust this value to compensate */
+}
+
+#donate{
+    padding-top: 160px; /* Adjust this value as needed */
+    margin-top: -160px; /* Adjust this value to compensate */
 }
 
 @-webkit-keyframes spin {
@@ -559,8 +583,8 @@ a:focus {
 .carousel {
     position: relative;
     width: 100%;
-    min-height: 500px;
     background: #ffffff;
+    margin-bottom: 50px;
 }
 
 .carousel .container-fluid {
@@ -773,7 +797,8 @@ a:focus {
     }
 
     .carousel .carousel-text p {        
-        font-size: 12px;        
+        font-size: 12px;    
+        padding: 0 50px;    
     }
 }
 
@@ -820,9 +845,55 @@ a:focus {
 
     .carousel .carousel-text-left p {
         font-size: 12px;
-        margin-left: 100px;
+        margin-left: 100px;        
     }
     
+}
+
+/* Adjustments for small screens */
+@media (max-width: 575.98px) {
+    .carousel .carousel-img {
+        height: 50vh; /* Adjust as needed for small screen */
+        min-height: 200px; /* Minimum height for small screens */
+    }
+
+    .carousel .carousel-img img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .carousel .carousel-img::after {
+        height: 100%; /* Ensure the overlay covers the entire image */
+    }
+}
+
+@media (max-width: 575.98px) {
+    .carousel .carousel-btn .btn.btn-custom {
+        font-size: 10px;
+        padding: 6px 10px; /* Further reduce button size for smaller screens */
+    }
+
+    .carousel .owl-nav {
+        top: calc(50% - 15px); /* Further adjust the position */
+        height: 30px;
+    }
+
+    .carousel .owl-nav .owl-prev, 
+    .carousel .owl-nav .owl-next {
+        width: 30px;
+        height: 30px;
+        font-size: 14px; /* Smallest icon size for mobile devices */
+    }
+
+    #videoModal .modal-dialog {
+        max-width: 400px;
+        margin: 20px auto 0 auto; /* Further reduce margins */
+    }
+
+    #videoModal .close {
+        font-size: 20px; /* Smallest size for close button */
+        top: -20px;
+    }
 }
 
 
@@ -1130,7 +1201,7 @@ a:focus {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 45px;
+    margin-bottom: 10px;
     transition: .3s;
 }
 
@@ -1183,6 +1254,33 @@ a:focus {
 
 .service .service-text p {
     margin: 0;
+}
+
+
+
+
+@media (max-width: 575.98px) {
+    .row {
+        display: flex;
+        flex-direction: column; /* Stack columns vertically */
+    }
+    
+    .col-lg-4, .col-md-6 {
+        width: 100%; /* Ensure each column takes full width */
+        margin-bottom: 15px; /* Add some spacing between rows */
+    }
+    
+    .service-item {
+        text-align: center; /* Center-align text and icons */
+    }
+    
+    .service-icon {
+        font-size: 24px; /* Adjust icon size if needed */
+    }
+    
+    .service-text h3 {
+        font-size: 20px; /* Adjust heading size if needed */
+    }
 }
 
 
@@ -1483,15 +1581,7 @@ a:focus {
    
 }
 /* Sparkles*/
-.facts .tenor-gif-embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    pointer-events: none; /* Make the GIF non-interactive */
-    z-index: 10;
-}
+
 
 .facts .facts-text {
     margin-left: 30px;
@@ -1522,7 +1612,7 @@ a:focus {
 
 .facts .facts-text h3.facts-dollar::after {
     content: "R";
-    left: -18px;
+    left: -17px;
 }
 
 .facts .facts-text p {
@@ -2584,14 +2674,11 @@ a:focus {
     background: #dc0000;
     z-index: 1000; /* Higher z-index ensures it stays above other elements */
     padding: 40px 0; /* Add padding if needed */
-<<<<<<< HEAD
-=======
     display: flex;
     flex-direction: column;
     align-items: center; /* Center the contents */
     justify-content: center;
     /* Align text in the center */
->>>>>>> e4ecee8ebe03b4920652ede4db5159df79a9f1d8
 
 }
 
