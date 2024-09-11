@@ -170,86 +170,89 @@
     </section>  
         <!-- Video Modal End -->
 
-        <!-- Money Raised Start -->
-        <section id="ourtarget">       
-                <div class="section-header text-center">                    
-                    <h2>Our Target</h2>
+              <!-- Facts Start -->
+              <section id="ourtarget">
+            
+                <h1 style="color: #4a4c70; font-weight: bold; text-align: center;">Our Target </h1>
+           
+             </section>
+            
+               <!-- Facts Start -->
+    
+           
+            <div class="facts" data-parallax="scroll" data-image-src="https://s3.eu-west-1.amazonaws.com/20from20.org/img/DONATE.gif" >
+                <div class="container spark">
+                    <div class="row ">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="facts-item">
+                            
+                                <div class="facts-text">
+                                    
+                                    <h3 class="facts-dollar" data-toggle="counter-up">0</h3>
+                                    <p>Raised This Week</p>
+                                    <i class="flaticon-donation"></i>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="facts-item">                      
+                                <div class="facts-text">
+                                    <h3 class="facts-dollar" data-toggle="counter-up">0</h3>
+                                    <p>Raised</p>
+                                    <i class="flaticon-donation"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="facts-item">                          
+                                <div class="facts-text">
+                                    <h3 class="facts-dollar" data-toggle="counter-up">1,200000</h3>
+                                    <p>Our Goal</p>
+                                    <i class="flaticon-kindness"></i>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-6">
+                            <div class="facts-item">                         
+                                <div class="facts-text">
+                                    <h3 class="" data-toggle="counter-up">60</h3>
+                                    <p>Donors</p>
+                                    <i class="flaticon-charity"></i>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <script>
+                            document.querySelector('.container.spark').addEventListener('mousemove', function(event) {
+                                let t = document.createElement('t');
+                                t.style.left = (event.pageX) + 'px';
+                                t.style.top = (event.pageY) + 'px';
+                                t.style.scale = `${Math.random() * 2 + 1}`;
+                                t.style.setProperty('--x', getRandomTransitionValue());
+                                t.style.setProperty('--y', getRandomTransitionValue());
+    
+                                document.body.appendChild(t);
+    
+                                setTimeout(() => {
+                                    document.body.removeChild(t);
+                                }, 2000);
+                            });
+    
+                            function getRandomTransitionValue()
+                            {
+                                return `${Math.random() * 400 - 200}px`;
+                            }
+    
+                           
+                        </script>
+    
+                    </div>
                 </div>
-    <div class="container spark">
-        <div class="facts" data-parallax="scroll" data-image-src="https://s3.eu-west-1.amazonaws.com/20from20.org/img/DONATE.gif" >
-           
-              <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="facts-item">
-                            <i class="flaticon-donation"></i>
-                            <div class="facts-text">
-                                <h3 class="facts-dollar" data-toggle="counter-up">60,000</h3>
-                                <p>Raised This Week</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="facts-item">
-                            <i class="flaticon-donation"></i>
-                            <div class="facts-text">
-                                <h3 class="facts-dollar" data-toggle="counter-up">60,000</h3>
-                                <p>Raised</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="facts-item">
-                            <i class="flaticon-kindness"></i>
-                            <div class="facts-text">
-                                <h3 class="facts-dollar" data-toggle="counter-up">1,200,000 </h3>
-                                <p>Our Goal</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="facts-item">
-                            <i class="flaticon-charity"></i>
-                            <div class="facts-text">
-                                <h3 class="" data-toggle="counter-up">1</h3>
-                                <p>Donor</p>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
+               
             </div>
-           
-        </div>
-  
-             <!-- Spark JS Start -->
-
-                    <script>
-                        document.querySelector('.container.spark').addEventListener('mousemove', function(event) {
-                            let t = document.createElement('t');
-                            t.style.left = (event.pageX) + 'px';
-                            t.style.top = (event.pageY) + 'px';
-                            t.style.scale = `${Math.random() * 2 + 1}`;
-                            t.style.setProperty('--x', getRandomTransitionValue());
-                            t.style.setProperty('--y', getRandomTransitionValue());
-
-                            document.body.appendChild(t);
-
-                            setTimeout(() => {
-                                document.body.removeChild(t);
-                            }, 2000);
-                        });
-
-                        function getRandomTransitionValue()
-                        {
-                            return `${Math.random() * 400 - 200}px`;
-                        }
-
-                       
-                    </script>
-        
-           <!-- Spark JS End -->
-</section>
-
- <!-- Money Raised End -->
 
     
         <!-- Logo Begin -->
@@ -428,52 +431,48 @@
 <!-- Values End --> 
  
 <!-- About Compaaign Start --> 
-<section  id = "about1">
-<div class="service">
-    <div class="container">
-        <div class="section-header text-center">
-          
-              <div class="about1">
-                     <div class="container">
-                             <div class="row align-items-center">
-                                 <div class="msizi1">
-                                    <div class="section-header text-center">                    
-                                        <h2>#Twentyfrom20 Campaign</h2>
-                                    </div>
-                                       
-                                            <span class="about-us-p">
-                                                The aim of the #Twentyfrom20 campaign is to raise R1.2 million by partnering with 60 companies, each donating R20,000, to support three key projects that will empower future leaders and innovators. Running from the 1st of September to the 29th of November, this campaign seeks to build long-term partnerships with companies committed to advancing education and community development. Through your generous contributions, TUT can continue to offer transformative educational opportunities, expand its research initiatives, and make a lasting difference in the lives of students and the communities in which the university operates.
-        
-                                            </span>
+<section  id = "about1" style="padding-top: 60px; margin-top: -60px;">
+    <div class="service">
+        <div class="container">
+            <div class="section-header text-center">
+              
+                  <div class="about">
+                         <div class="container">
+                                 <div class="row align-items-center">
+                                     <div class="msizi1">
                                         
-                                        <!-- Trigger/Open The Modal -->
-                                        <div class="portfolio-btn d-flex align-items-center justify-content-center" style="margin-top: 50px; margin-bottom: -150px;">
-                                            <button id="openModal" class="btn btn-custom btn-play" style="color: #4a4c70;">Watch Video</button>
-                                        </div>
-
-                                       <!-- Trigger button -->
-
-
-                                        <!-- Modal structure -->
-                                        <div id="myModal" class="modal">
-                                            <div class="modal-content">
-                                                <span class="closeVid">&times;</span>
-                                                <video id="myVideo" width="100%" controls>
-                                                    <source src="https://s3.eu-west-1.amazonaws.com/20from20.org/vid/phumla.mp4" type="video/mp4">
-                                                    Your browser does not support the video tag.
-                                                </video>
+                                           <h1 style="text-align: center; font-weight: bold;">#Twentyfrom20 Campaign</h1>
+                              
+                                            <br>The aim of the #Twentyfrom20 campaign is to raise R1.2 million by partnering with 60 companies, each donating R20,000, to support three key projects that will empower future leaders and innovators. Running from the 1st of September to the 29th of November, this campaign seeks to build long-term partnerships with companies committed to advancing education and community development. Through your generous contributions, TUT can continue to offer transformative educational opportunities, expand its research initiatives, and make a lasting difference in the lives of students and the communities in which the university operates.
+            
+                                            <!-- Trigger/Open The Modal -->
+                                            <div class="portfolio-btn d-flex align-items-center justify-content-center" style="margin-top: 50px; margin-bottom: -150px;">
+                                                <button id="openModal" class="btn btn-custom btn-play" style="color: #4a4c70;">Watch Video</button>
                                             </div>
+    
+                                           <!-- Trigger button -->
+    
+    
+                                            <!-- Modal structure -->
+                                            <div id="myModal" class="modal">
+                                                <div class="modal-content">
+                                                    <span class="closeVid">&times;</span>
+                                                    <video id="myVideo" width="100%" controls>
+                                                        <source src="https://s3.eu-west-1.amazonaws.com/20from20.org/vid/phumla.mp4" type="video/mp4">
+                                                        Your browser does not support the video tag.
+                                                    </video>
+                                                </div>
+                                            </div>
+    
                                         </div>
-
                                     </div>
-                                </div>
+                            </div>
                         </div>
+                        </section>
                     </div>
-                    </section>
                 </div>
             </div>
-        </div>
-<!-- About Campaign End End --> 
+    <!-- About Campaign End End -->
                    
 
 
