@@ -986,7 +986,7 @@ a:focus {
 
 /* Logo styling */
 .logo {
-    background: white;
+    background: rgb(255, 255, 255);
     padding: 10px 20px;
     overflow: hidden; /* Hide overflowing images */
     width: 100%; /* Ensure it fits the parent container */
