@@ -483,7 +483,7 @@ a:focus {
     }
     .navbar .navbar-brand {
         margin: 0;
-        width: 400px;
+        width: 200px;
         padding: 0;
     }
 }
@@ -1610,7 +1610,9 @@ a:focus {
     width: calc(100% - 95px);
 }
 
-.testimonial .testimonial-name h3 yyorder-radius: 0;
+.testimonial .testimonial-name h3 
+{
+    border-radius: 0;
     background: #FDBE33;
 }
 
@@ -2510,25 +2512,49 @@ a:focus {
     background: #dc0000;
     z-index: 1000; /* Higher z-index ensures it stays above other elements */
     padding: 40px 0; /* Add padding if needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the contents */
+    justify-content: center;
+    /* Align text in the center */
 
 }
 
+.footer .container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: -45px;
+}
 .footer .footer-contact,
 .footer .footer-link,
 .footer .footer-newsletter {
     position: relative;
     margin-bottom: 45px;
     color: #ffffff;
+    width: 100%;
+    max-width: 300px;
 }
 
 .footer .footer-contact h2,
 .footer .footer-link h2,
 .footer .footer-newsletter h2 {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 22px;
     font-weight: 700;
     color: #FDBE33;
-    
+    /* text-align: center; */
 }
 
 .footer .footer-link a {
@@ -2536,13 +2562,13 @@ a:focus {
     margin-bottom: 10px;
     color: #ffffff;
     transition: .3s;
-    text-decoration: none; 
-    
+    text-decoration: none; position: relative; /* Ensure relative positioning to place bullet icons */
+    padding-left: 20px;
 }
 
 .footer .footer-link a::before {
     position: relative;
-    content: "\f105";
+    content: "\2022";
     font-family: "Trebuchet MS";
     font-weight: 900;
     margin-right: 10px;
@@ -2562,12 +2588,16 @@ a:focus {
 .footer .footer-social {
     position: relative;
     margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Center social icons horizontally */
+    gap: 10px; /* Add some space between icons */
 }
 
 .footer .footer-social a {
     width: 40px;
     height: 40px;
     padding: 6px 0;
+    text-align: center;
 }
 
 .footer .footer-social a {
@@ -2651,8 +2681,6 @@ a:focus {
     height: auto; /* Maintains the aspect ratio of the image */
     width: 35%; /* Adjust the width to make the image smaller (you can change the percentage as needed) */
 }
-
-
 /*Donation Journey*/
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,900);
 
