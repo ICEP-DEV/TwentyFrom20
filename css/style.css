@@ -517,7 +517,7 @@ a:focus {
 
 /* Style for member cards */
 .member-card {
-    border: 1px solid #ddd; /* Optional: Adds border around the card */
+    border: 1px solid white; /* Optional: Adds border around the card */
     border-radius: 8px; /* Optional: Rounds the corners of the card */
     overflow: hidden; /* Ensures content doesn't overflow */
     text-align: center; /* Centers text within the card */
